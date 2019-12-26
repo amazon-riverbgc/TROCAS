@@ -11,7 +11,3 @@
 - Could include an annotated screenshot
 - Include explanations, eg, of "stations - jeff's set" and "stations - diel files"
 
-## About TROCAS
-
-- [NSF Award: Biogeochemical Processes along the Lower Amazon River Continuum](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1754317)
-- Papers
