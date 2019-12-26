@@ -15,7 +15,7 @@ Describe the goals and scope of the TROCAS Data Browser. Currently focused on un
 
 ## Files available for download
 
-The following Excel files are available for download:
+The following Excel files are available from Google Drive for download (*but currently only to users with UW accounts*):
 
 - [merged_1minbinned.xlsx](https://drive.google.com/open?id=1j3DU1ealqm-y1saOiZBvJFkGGHcVDYyA): 1-min median binned, merged file. 14 MB.
 - [sensorinventory.xlsx](https://drive.google.com/open?id=10lrflq_yQgX--ZnoP4ovhDKaAoi-wDrK): Sensor inventory, by individual, raw sensor file.
