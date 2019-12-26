@@ -16,6 +16,7 @@ Describe the goals and scope of the TROCAS Data Browser. Currently focused on un
 ## Files available for download
 
 The following Excel files are available for download:
+
 - [merged_1minbinned.xlsx]("data/merged_1minbinned.xlsx"): 1-min median binned, merged file. 14 MB.
 - [sensorinventory.xlsx]("data/inventories/sensorinventory.xlsx"): Sensor inventory, by individual, raw sensor file.
 - Sensor statistics: [GPS]("data/inventories/gps_sensor_df_describe_stats.xlsx"), [EXO Sonde]("data/inventories/sonde_sensor_df_describe_stats.xlsx"), [Licor]("data/inventories/licor_sensor_df_describe_stats.xlsx"), [Picarro]("data/inventories/picarro_sensor_df_describe_stats.xlsx").
