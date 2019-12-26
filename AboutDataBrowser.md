@@ -18,5 +18,5 @@ Describe the goals and scope of the TROCAS Data Browser. Currently focused on un
 The following Excel files are available for download:
 
 - [merged_1minbinned.xlsx](https://drive.google.com/open?id=1j3DU1ealqm-y1saOiZBvJFkGGHcVDYyA): 1-min median binned, merged file. 14 MB.
-- [sensorinventory.xlsx](data/inventories/sensorinventory.xlsx): Sensor inventory, by individual, raw sensor file.
-- Sensor statistics: [GPS](data/inventories/gps_sensor_df_describe_stats.xlsx), [EXO Sonde](data/inventories/sonde_sensor_df_describe_stats.xlsx), [Licor](data/inventories/licor_sensor_df_describe_stats.xlsx), [Picarro](data/inventories/picarro_sensor_df_describe_stats.xlsx).
+- [sensorinventory.xlsx](https://drive.google.com/open?id=10lrflq_yQgX--ZnoP4ovhDKaAoi-wDrK): Sensor inventory, by individual, raw sensor file.
+- Sensor statistics: [GPS](https://drive.google.com/open?id=18hKJVenXlMchqmeC7EJiDe8wj8UMyWyI), [EXO Sonde](https://drive.google.com/open?id=14ZTD2Qk6CcT-kQMpodOIdbUzYGde4gM1), [Licor](https://drive.google.com/open?id=1KVJ3qwhaSgsUyPdKv5gBUAvTM8BqbtXN), [Picarro](https://drive.google.com/open?id=1m6ykuS1gF_wM_nfdg3W1WAh8hnaimrC5).
