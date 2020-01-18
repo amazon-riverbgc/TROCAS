@@ -8,12 +8,19 @@ Listing of missing sensor files or issues with specific files. Last update: 2020
 - 2019-8-29: **Picarro** files are missing
 
 ### TR 2
+- 2020-1-18: **Licor** files are missing.
+- 2020-1-18: **EXO Sonde** data are less comprehensive than Picarro, and area coverage varies with parameter. Downstream half is largely missing.
 - 2019-8-29: **EXO Sonde** file `Sonde Transects/Upstream/All Upstream.xlsx` is big; I suspect it may aggregate other Sonde files also found in that directory. In that case, it adds a duplication. I've renamed it temporarily, to prevent it being read.
 - 2019-8-29: Two **Picarro** files have corrupted TIME values; they're in the form of 48:49.7, with a single colon, the first part not being a proper hour. Will try to read date-time information instead from one of the other time columns, like EPOCH_TIME. The files are: `CFIDS2061-20141107-071220Z-DataLog_User.dat` and `CFIDS2061-20141108-093330Z-DataLog_User.dat`
 
 ### TR 3
-- 2019-8-29: For **Licor** file `Santarem 7_8_15a.txt`, I corrected the first header row from """2015-07" -08 at "08:39""" to "2015-07-08 at 08:39"; and in second header row, Time(H:M        :S)  CO2    (ppm) to Time(H:M:S)  CO2(ppm). But in the end I've excluded this file b/c the data rows are corrupted (have two extra columns) starting in row 2075.
-- 2019-8-29: **EXO Sonde** files are missing (2020-1-18: or largely missing?)
+- **Licor**
+  - 2020-1-18: There's barely any data, relative to the other sensors.
+  - 2019-8-29: For file `Santarem 7_8_15a.txt`, I corrected the first header row from """2015-07" -08 at "08:39""" to "2015-07-08 at 08:39"; and in second header row, Time(H:M        :S)  CO2    (ppm) to Time(H:M:S)  CO2(ppm). But in the end I've excluded this file b/c the data rows are corrupted (have two extra columns) starting in row 2075.
+- 2019-8-29: **EXO Sonde** files are missing (2020-1-18: or largely missing? I think I found some files under TR 4 that obviously were part of TR 3, and moved them to TR 3)
+
+### TR 4
+- 2020-1-18: **EXO Sonde** coverage is much more sparse than all other sensors. Data from the upstream half of the transect are missing.
 
 ### TR 5
 - **Licor**:
