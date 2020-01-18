@@ -16,9 +16,9 @@ Listing of missing sensor files or issues with specific files. Last update: 2020
 - 2019-8-29: **EXO Sonde** files are missing (2020-1-18: or largely missing?)
 
 ### TR 5
-- 2019-8-29: **Licor**:
-  - `Tidal/Surface` directory has no .txt files, just .xlsx files. So, I can't ingest it as the other files.
-  - `diel/diel_ 11_8_16 Sika.txt` and `Tidal/50 percent depth/50Depth_NMCP_11_8_16.txt` are non-standard. They nare very different from conventional files, having no header rows and 3 columns like this: <incremental int counter>  Time(H:M:S)   CO2(ppm). I can't ingest them.
+- **Licor**:
+  - 2019-8-29: `Tidal/Surface` directory has no .txt files, just .xlsx files. So, I can't ingest it as the other files.
+  - 2019-8-29: `diel/diel_ 11_8_16 Sika.txt` and `Tidal/50 percent depth/50Depth_NMCP_11_8_16.txt` are non-standard. They nare very different from conventional files, having no header rows and 3 columns like this: <incremental int counter>  Time(H:M:S)   CO2(ppm). I can't ingest them.
 
 
 ### TR 8
@@ -28,8 +28,10 @@ Listing of missing sensor files or issues with specific files. Last update: 2020
 
 ### General issues, by sensor type
 #### EXO Sonde
-- Dates may be reversed (YYYY-DD-MM vs YYYY-MM-DD) in some files. In TROCAS 6, see "2017-05-01" vs "2017-01-05"
-- A variety of datetime columns occur, apparently added manually and sometimes including duplicate column names. Columns sometimes include one called “datetime” which collided with the datetime name I was using for the final, processed column name. I renamed the new column to date_time.
+- Dates are reversed (YYYY-DD-MM vs YYYY-MM-DD) in some files. In TROCAS 6, see "2017-05-01" vs "2017-01-05"
+- Files don't always have the same set of columns. I've added a mechanism to exclude manually added "extra" columns. But this doesn't necessarily fix all issues related to modified columns
+- A variety of datetime columns occur, apparently added manually and sometimes including duplicate column names. Columns sometimes include one actually called `datetime` (and `Datetime`), which collides with the `datetime` name I was using for the final, processed column name. I renamed that column to `date_time`.
+- There are still a number of "bad" extra columns, most of them probably added manually. See the notes in the data processing Jupyter notebook. These issues are resulting in good data probably not being read appropriately, including data being generated with modified column names (eg, `ODO % sat.1`, `ODO mg/L.1`) that are then not retained in the data binning and merging workflow
 
 #### Picarro
 - Are times in UTC or Brasilia TZ?
