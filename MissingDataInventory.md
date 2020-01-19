@@ -24,6 +24,8 @@ Listing of missing sensor files or issues with specific files. [Go to the `Missi
   - 2019-8-29: `Tidal/Surface` directory has no .txt files, just .xlsx files. So, I can't ingest it as the other files.
   - 2019-8-29: `diel/diel_ 11_8_16 Sika.txt` and `Tidal/50 percent depth/50Depth_NMCP_11_8_16.txt` are non-standard. They nare very different from conventional files, having no header rows and 3 columns like this: <incremental int counter>  Time(H:M:S)   CO2(ppm). I can't ingest them.
 
+### TR 7
+- 2019-2-17: **Picarro:** Regarding files Nick sent us, data from the last day are missing: "doesn't include the very last day since I left a day early (ADCP In north macapa)? Either M/Vania downloaded the last day or it's still sitting on the Picarro hard drive and someone can retrieve it next time she's fired up."
 
 ### TR 8
 - 2020-1-18: **EXO Sonde** data was exported in a format that's different from EXO Sonde files from all other TROCAS: in csv rather than Excel format; header rows are organized very differently. We need the .bin files to then use the Sonde software to re-export to the Excel format.
