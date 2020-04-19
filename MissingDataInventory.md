@@ -34,6 +34,7 @@ Listing of missing sensor files or issues with specific files. [Go to the `Missi
 
 ### General issues, by sensor type
 #### EXO Sonde
+- Conductivity needs to be added to the binned-merged file.
 - Dates are reversed (YYYY-DD-MM vs YYYY-MM-DD) in some files. In TROCAS 6, see "2017-05-01" vs "2017-01-05"
 - Files don't always have the same set of columns. I've added a mechanism to exclude manually added "extra" columns. But this doesn't necessarily fix all issues related to modified columns
 - A variety of datetime columns occur, apparently added manually and sometimes including duplicate column names. Columns sometimes include one actually called `datetime` (and `Datetime`), which collides with the `datetime` name I was using for the final, processed column name. I renamed that column to `date_time`.
