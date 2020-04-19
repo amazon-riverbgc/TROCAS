@@ -5,9 +5,10 @@ Listing of missing sensor files or issues with specific files. [Go to the `Missi
 - 2019-8-29: **Picarro** files are missing
 
 ### TR 2
-- 2020-1-18: **Licor** files are missing.
-- 2020-1-18: **EXO Sonde** data are less comprehensive than Picarro, and area coverage varies with parameter. Downstream half is largely missing.
-- 2019-8-29: **EXO Sonde** file `Sonde Transects/Upstream/All Upstream.xlsx` is big; I suspect it may aggregate other Sonde files also found in that directory. In that case, it adds a duplication. I've renamed it temporarily, to prevent it being read.
+- 2020-4-18: **Licor** data are less comprehensive, geographically, than EXO Sonde and Picarro. Prior to 2020-4-18 these data files were not being read (the directory was not set correctly).
+- **EXO Sonde**
+  - 2020-4-18: Data are less comprehensive than Picarro, and area coverage varies with parameter. Downstream half is largely missing. The files under `T2 Underway data/Sonde Transects/Upstream`, with names that reference downstream areas (Santarem, Xingu, Macapa), have dates in early November prior to the first GPS date.
+  - 2019-8-29: File `Sonde Transects/Upstream/All Upstream.xlsx` is big; I suspect it may aggregate other Sonde files also found in that directory. In that case, it adds a duplication. I've renamed it temporarily, to prevent it being read.
 - 2019-8-29: Two **Picarro** files have corrupted TIME values; they're in the form of 48:49.7, with a single colon, the first part not being a proper hour. Will try to read date-time information instead from one of the other time columns, like EPOCH_TIME. The files are: `CFIDS2061-20141107-071220Z-DataLog_User.dat` and `CFIDS2061-20141108-093330Z-DataLog_User.dat`
 
 ### TR 3
