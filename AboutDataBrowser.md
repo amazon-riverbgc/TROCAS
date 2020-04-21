@@ -1,4 +1,4 @@
-The TROCAS Data Browser aggregates sensor data from the TROCAS project across all TROCAS transects conducted so far and collected from a boat in "underway" mode while transiting or remaining stationary at a location. It does not include data from experiments or from laboratory analyses of samples. Sensor types currently included are EXO Sonde, Licor CO2, Picarro and GPS. ADCP is currently not included.
+The TROCAS Data Browser is intended to provide convenient overviews and exploration of TROCAS data. It aggregates sensor data from the TROCAS project across all TROCAS transects conducted so far and collected from a boat in continuous "underway" mode while transiting or remaining stationary at a location. Sensor types currently included are EXO Sonde, Licor CO2, Picarro and GPS. It does not yet include ADCP dataq or data from experiments or from laboratory analyses of samples.
 
 See the annotated screenshot below for usage instructions. The main component of the application is in the **Data Browser tab**. The **Inventory tab** presents an inventory table for each TROCAS transect and a list of currently known data gaps or issues that need to be addressed.
 
