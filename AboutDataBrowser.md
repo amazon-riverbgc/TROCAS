@@ -1,22 +1,19 @@
-# TROCAS Data Browser
+The TROCAS Data Browser aggregates sensor data from the TROCAS project across all TROCAS transects conducted so far and collected from a boat in "underway" mode while transiting or remaining stationary at a location. It does not include data from experiments or from laboratory analyses of samples. Sensor types currently included are EXO Sonde, Licor CO2, Picarro and GPS. ADCP is currently not included.
 
-Describe the goals and scope of the TROCAS Data Browser. Currently focused on underway data.
+See the annotated screenshot below for usage instructions. The main component of the application is in the **Data Browser tab**. The **Inventory tab** presents an inventory table for each TROCAS transect and a list of currently known data gaps or issues that need to be addressed.
 
-## TROCAS data processing
+### TROCAS data processing
 
-- Stuff about the source of the data, processing steps, assumptions, etc
-- Here is a Jupyter [notebook](https://github.com/emiliom/minimal-panel-app/blob/master/minimal-panel.ipynb)
-- Links could point to Google Drive and/or to a private github repo
+- Data presented in this Data Browser are based on raw sensor output files (including GPS) averaged into 1-minute bins. The binned data from each sensor are then joined on matching time-interval bins. Sensor data that don't have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.
+- Source sensor data files in parent folders indicating their sampling "type" as *underway* (moving) or *diel* (stationary) are flagged as such in data processing workflow. All others are labelled with a default *mixed* (unknown or a combination of the two) flag. The **"stations - diel files" points (small blue squares)** represent aggregations of diel-flagged files, identified for further investigation and identification.
 
-## How to use the application
+### Files available for download
 
-- Could include an annotated screenshot
-- Include explanations, eg, of "stations - jeff's set" and "stations - diel files"
-
-## Files available for download
-
-The following Excel files are available from Google Drive for download (*but currently only to users with UW accounts*):
+Data and inventory files will be made available for download in the near future. 
+The following Excel files are some of the core files that will be available from Google Drive for download (*but currently only to users with UW accounts*):
 
 - [merged_1minbinned.xlsx](https://drive.google.com/open?id=1j3DU1ealqm-y1saOiZBvJFkGGHcVDYyA): 1-min median binned, merged file. 14 MB.
 - [sensorinventory.xlsx](https://drive.google.com/open?id=10lrflq_yQgX--ZnoP4ovhDKaAoi-wDrK): Sensor inventory, by individual, raw sensor file.
 - Sensor statistics: [GPS](https://drive.google.com/open?id=18hKJVenXlMchqmeC7EJiDe8wj8UMyWyI), [EXO Sonde](https://drive.google.com/open?id=14ZTD2Qk6CcT-kQMpodOIdbUzYGde4gM1), [Licor](https://drive.google.com/open?id=1KVJ3qwhaSgsUyPdKv5gBUAvTM8BqbtXN), [Picarro](https://drive.google.com/open?id=1m6ykuS1gF_wM_nfdg3W1WAh8hnaimrC5).
+
+### Annotated screenshot of Data Browser tab
