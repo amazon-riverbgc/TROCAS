@@ -2,6 +2,8 @@ The TROCAS Data Browser aggregates sensor data from the TROCAS project across al
 
 See the annotated screenshot below for usage instructions. The main component of the application is in the **Data Browser tab**. The **Inventory tab** presents an inventory table for each TROCAS transect and a list of currently known data gaps or issues that need to be addressed.
 
+This is a work in progress. Some of the enhancements currently identified for near-term implementation are <a href="https://github.com/emiliom/TROCAS/blob/master/AppTODOs.md" target="_blank">listed in this TO-DOs page</a>.
+
 ### TROCAS data processing
 
 - Data presented in this Data Browser are based on raw sensor output files (including GPS) averaged into 1-minute bins. The binned data from each sensor are then joined on matching time-interval bins. Sensor data that don't have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.
