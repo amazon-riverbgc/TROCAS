@@ -10,7 +10,7 @@ Updated 2020-9-14
 - Enable synchronization between the map color range limits and the histogram x-axis range.
 - Add text input boxes to manually set the parameter value min and max, with a toggle (checkbox) to switch from fixed (global values) to manually set.
 - Add a text display of the date-time start and end for the selected TROCAS. Later, could enhance this by showing start - end of GPS-merged binned data vs start-end of all data, regardless of GPS match
-- Move all the data-loading and pre-processing code to a module ("Load and pre-process Binned-Merged data" and "Diel stations" sections).
+- Move all the data-loading and pre-processing code to a module ("Load and pre-process Binned-Merged data", "Diel stations" and "Sensor inventory" sections).
 - Add a small map (lower right) visually indicating the earliest (eg, dark) vs later (light) sampling dates for the TROCAS.
 - Add a colorbar legend/label
 - Problems I was seeing with chlorophyll, isotopes, etc, all apparently had to do with **negative values with a log scale** (logz=True)! I'll need to implement log scaling as an option (checkbox), that maybe is only available for a pre-defined set of parameters.
