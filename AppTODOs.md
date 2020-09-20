@@ -1,10 +1,11 @@
-# TO-DOs for TROCAS Data Browser App
+Î# TO-DOs for TROCAS Data Browser App
 
 Updated 2020-9-19
 
 - Priority Panel widget and annotation development
   - Add a text display of the date-time start and end for the selected TROCAS. Later, could enhance this by showing start - end of GPS-merged binned data vs start-end of all data, regardless of GPS match
-  - Add text input boxes to manually set the parameter value min and max, with a toggle (checkbox) to switch from fixed (global values) to manually set.
+  - Add a range slider to manually set the parameter value min and max, with a toggle (checkbox) to switch from fixed (global values) to manually set.
+  - Add box and lasso select tools, and histogram getting replaced by the selected data points
   - Add a third histogram overlay, showing the histogram for the data in the current geographical extent? It'd be helpful, but likely too crowded.
   - Choice of `mainmap.opts` `width` & `height` vs `frame_width` and `frame_height` has consequences on both the space the map occupies and how and when it rearranges itself horizontally when zooming in (when y tick labels add/drop a digit) or changing parameters (and the colorbar legend values add/drop digits)
   - Add a colorbar legend/label. *But a vertical label doesn't appear to be currently doable. See [here](https://discourse.holoviz.org/t/how-to-specify-a-vertical-colorbar-label/444) and [here](https://stackoverflow.com/questions/46841919/bokeh-colorbar-vertical-title-to-right-of-colorbar).*
