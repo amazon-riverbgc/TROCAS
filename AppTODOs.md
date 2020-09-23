@@ -1,9 +1,8 @@
 # TO-DOs for TROCAS Data Browser App
 
-Updated 2020-9-21
+Updated 2020-9-23
 
 - Priority Panel widget and annotation development
-  - Add a range slider to manually set the parameter value min and max, with a toggle (checkbox) to switch from fixed (global values) to manually set.
   - Add box and lasso select tools, and histogram getting replaced by the selected data points
   - Add a third histogram overlay, showing the histogram for the data in the current geographical extent? It'd be helpful, but likely too crowded.
   - Choice of `mainmap.opts` `width` & `height` vs `frame_width` and `frame_height` has consequences on both the space the map occupies and how and when it rearranges itself horizontally when zooming in (when y tick labels add/drop a digit) or changing parameters (and the colorbar legend values add/drop digits)
@@ -16,6 +15,7 @@ Updated 2020-9-21
 
 ## Completed
 
+- 2020-9-23: Add a range slider to manually set the parameter value min and max, with a toggle (checkbox) to switch from fixed (global values) to manually set.
 - 2020-9-20:
   - Fixed. - `mbdata_dielcoll_df` `agg_dct` operations: Including `date_time` mean in `agg_dct` results in "DataError: No numeric types to aggregate". Investigate it.
   - (Done earlier) Add global min-max range to each parameter. (Done 9/20) Add capability to plot using global, fixed min-max, while also allowing a floating, self-scalable range (what's currently happening by default)
