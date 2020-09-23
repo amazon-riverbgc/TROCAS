@@ -4,6 +4,7 @@ Updated 2020-9-23
 
 - Move markdown docs used in the app from the `TROCAS` repo to the `trocas-herokuapp` repo (the one that hosts the app code)
 - Priority Panel widget and annotation development
+  - Remove the "Frequency" y-label on the histogram plot, to gain horizontal space. Place that information about the axis somewhere else, if possible.
   - Add box and lasso select tools, and histogram getting replaced by the selected data points
   - Add a third histogram overlay, showing the histogram for the data in the current geographical extent? It'd be helpful, but likely too crowded.
   - Choice of `mainmap.opts` `width` & `height` vs `frame_width` and `frame_height` has consequences on both the space the map occupies and how and when it rearranges itself horizontally when zooming in (when y tick labels add/drop a digit) or changing parameters (and the colorbar legend values add/drop digits)
