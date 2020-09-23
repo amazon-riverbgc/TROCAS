@@ -2,6 +2,7 @@
 
 Updated 2020-9-23
 
+- Move markdown docs used in the app from the `TROCAS` repo to the `trocas-herokuapp` repo (the one that hosts the app code)
 - Priority Panel widget and annotation development
   - Add box and lasso select tools, and histogram getting replaced by the selected data points
   - Add a third histogram overlay, showing the histogram for the data in the current geographical extent? It'd be helpful, but likely too crowded.
