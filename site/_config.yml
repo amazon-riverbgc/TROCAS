@@ -1,0 +1,30 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# See the documentation for help and more options: 
+# https://jupyterbook.org/customize/config.html
+
+#######################################################################################
+# Book settings
+title: "TROCAS"  # The title of the book. Will be placed in the left navbar.
+author: Emilio Mayorga
+copyright: "2021"  # Copyright year to be placed in the footer
+logo: img/mouth_databrowser.jpg  # A path to the book logo
+description: >-
+  Datos y computacion ambiental de Nicaragua
+
+parse:
+  myst_extended_syntax: true
+
+html:
+  # favicon: img/favicon1.ico
+  baseurl: https://amazon-riverbgc.github.io/TROCAS
+  home_page_in_navbar: false
+  extra_navbar: ""
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+
+repository:
+  url: https://github.com/amazon-riverbgc/TROCAS
+  branch: main
+  path_to_book: site

@@ -1,0 +1,21 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+- file: index
+
+- part: Project
+  chapters:
+  - file: docs/project
+    title: Project Description
+  - file: docs/team_access
+    title: Team Access
+
+- part: Data & Computation
+  chapters:
+  - file: docs/data
+    title: Data
+  - file: docs/databrowser
+    title: TROCAS Data Browser
+  - file: notebooks/index
+    title: Jupyter Notebooks
+    sections:
+    - file: notebooks/LagoNicaraguaNiveles_altimetro

@@ -1,26 +1,23 @@
-name: holoviztrocas_panelapp_latest
+name: trocasweb
 channels:
   - conda-forge
-  - defaults
+  - default
 dependencies:
-  - python=3.7
+  - python=3.8
+  - jedi<0.18.0 # https://github.com/ipython/ipython/issues/12740
   - ipykernel
+  - sphinx
   - pandas
   - geopandas
   - descartes
   - mapclassify
-  - openpyxl
-  - xlrd
-  - cachey
-  - marshmallow
-  - webargs
-  - fastparquet
-  - python-snappy
-  # holoviz packages
-  - colorcet
-  - datashader
-  - geoviews
-  - holoviews
-  - hvplot
-  - panel
-  - param
+  - xarray
+  - matplotlib
+  - seaborn
+  - folium
+  - cartopy
+  - contextily
+  - pip
+  - pip:
+    - jupyter-book
+    - ghp-import
