@@ -6,6 +6,8 @@
   chapters:
   - file: docs/project
     title: Project Description
+  - file: docs/publications
+    title: Publications
   - file: docs/team_access
     title: Team Access
 
