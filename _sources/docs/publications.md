@@ -2,9 +2,13 @@
 
 ## In Review
 
-- Richey, J.E., Spencer, R., Drake, T.W., Ward, N.D. (in review). Fluvial carbon dynamics across the land to ocean continuum of great tropical rivers: the Amazon and Congo. AGU Monograph Series. In Congo Basin Hydrology, Climate, and Biogeochemistry: A Foundation for the Future. Edited by Alsdorf, D.E., Tshimanga, R., Moukandi, G.
+- Bertassoli , D.J., H.O. Sawakuchi, K.R. de Araújo, M.G.P. de Camargo, V.A.T. Alem, T.S. Pereira, A.V. Krusche, D. Bastviken, J.E. Richey, and A.O. Sawakuchi (in review).  How green can Amazon hydropower be? Net carbon emission from the largest 4 hydropower plant in Amazonia - Net emissions from the Belo Monte reservoirs. Science Advances.
 - Sawakuchi, H.O., Bastviken, D., Enrich-Prast, A., Ward, N.D., Richey, J.E. (in review). Low methane emissions from the main channel of a large Amazonian run-of-the-river reservoir attributed to high methane oxidation. Frontiers in Earth Science: Biogeoscience.
-- Valerio, A.M.; Kampel, M.; Ward, N.D.; Sawakuchi, H.O.; Cunha, A.C.; and Richey, J.E. (in review). Assessment of partial pressure of carbon dioxide in the Amazon River plume using in situ and remote sensing data. Cont. Shelf. Res.
+
+## 2021
+
+- Richey, J.E., R.G.M. Spencer, T. W. Drake, and N.D. Ward. (in press). Fluvial Carbon Dynamics across the Land to Ocean Continuum of Great Tropical Rivers: the Amazon and Congo. Congo AGU Geophysical Monograph, Earth and Space Science Open Archive. In Congo Basin Hydrology, Climate, and Biogeochemistry: A Foundation for the Future. Edited by Alsdorf, D.E., Tshimanga, R., Moukandi, G.. [doi:10.1002/essoar.10505912.1](https://doi.org/10.1002/essoar.10505912.1)
+- Valerio, A.M.; Kampel, M.; Ward, N.D.; Sawakuchi, H.O.; Cunha, A.C.; and Richey, J.E. (2021). Assessment of partial pressure of carbon dioxide in the Amazon River plume using in situ and remote sensing data. Cont. Shelf. Res. 215 104348, [doi:10.1016/j.csr.2021.104348](https://doi.org/10.1016/j.csr.2021.104348)
 
 ## 2013 - 2020
 
