@@ -66,7 +66,7 @@
 <meta property="og:url"         content="https://amazon-riverbgc.github.io/TROCAS/docs/databrowser.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="TROCAS Data Browser" />
-<meta property="og:description" content="TROCAS Data Browser  Describe what it is. What it does. How it works. What technology it’s based on  https://trocasdata-1.herokuapp.com  The TROCAS Data Browser" />
+<meta property="og:description" content="TROCAS Data Browser  The TROCAS Data Browser provides convenient overviews and exploration of TROCAS data. Currently it aggregates sensor data from the TROCAS p" />
 <meta property="og:image"       content="https://amazon-riverbgc.github.io/TROCAS/_static/mouth_databrowser.jpg" />
 
 <meta name="twitter:card" content="summary" />
@@ -226,6 +226,25 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data">
+   Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#technology">
+   Technology
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -235,11 +254,18 @@
                 
   <div class="section" id="trocas-data-browser">
 <h1>TROCAS Data Browser<a class="headerlink" href="#trocas-data-browser" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p>Describe what it is. What it does. How it works. What technology it’s based on</p></li>
-<li><p><a class="reference external" href="https://trocasdata-1.herokuapp.com">https://trocasdata-1.herokuapp.com</a></p></li>
-</ul>
-<p>The TROCAS Data Browser is intended to provide convenient overviews and exploration of TROCAS data. It aggregates sensor data from the TROCAS project across all TROCAS transects conducted so far and collected from a boat in continuous “underway” mode while transiting or remaining stationary at a location. Sensor types currently included are EXO Sonde, Licor CO2, Picarro and GPS. It does not yet include ADCP dataq or data from experiments or from laboratory analyses of samples.</p>
+<p>The TROCAS Data Browser provides convenient overviews and exploration of TROCAS data. Currently it aggregates sensor data from the TROCAS project across all TROCAS transects conducted so far and collected from a boat in continuous “underway” mode while transiting or remaining stationary at a location.</p>
+<p><a class="sphinx-bs btn text-wrap btn-light btn-lg reference external" href="https://trocasdata-1.herokuapp.com" title="https://trocasdata-1.herokuapp.com"><span>Go to TROCAS Data Browser</span></a></p>
+<p>It may take 10 seconds or more for the application to start up. If you encounter an “Appplication error” page, please hit the browser reload button (typically <code class="docutils literal notranslate"><span class="pre">Ctrl-r</span></code>) to try again. For help using the Data Browser, see its “About Data Browser” tab. The main component of the application is in the “Data Browser” tab. The “Inventory” tab presents an inventory table for each TROCAS transect and a list of currently known data gaps or issues that need to be addressed.</p>
+<div class="section" id="data">
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
+<p>Sensor types currently processed and included in the Data Browser are EXO Sonde, Licor CO2, Picarro and GPS. It does not yet include data from ADCP sensors, experiments (such as respiration incubations) or laboratory analyses of samples. Data presented are based on raw sensor output files processed and averaged into 1-minute bins. The binned data from each sensor are then joined on matching time-interval bins. Sensor data that don’t have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.</p>
+</div>
+<div class="section" id="technology">
+<h2>Technology<a class="headerlink" href="#technology" title="Permalink to this headline">¶</a></h2>
+<p>The TROCAS Data Browser is an online “dashboard” application (app) developed in Python using the <a class="reference external" href="https://holoviz.org/">HoloViz</a> visualization software ecosystem, particularly the <a class="reference external" href="https://panel.holoviz.org/">Panel</a> dashboarding library. The dashboard code is maintained in a Jupyter notebook (<a class="reference external" href="https://github.com/amazon-riverbgc/trocas-herokuapp1/blob/master/trocas_pannelapp_1.ipynb">trocas_pannelapp_1.ipynb</a>) and associated Python modules. All the code is openly available on the GitHub repository for the Data Browser: <a class="reference external" href="https://github.com/amazon-riverbgc/trocas-herokuapp1">https://github.com/amazon-riverbgc/trocas-herokuapp1</a></p>
+<p>The app is deployed online through the <a class="reference external" href="https://www.heroku.com">Heroku</a> cloud platform. However, it can also be run locally in your own computer or computational resource; please see the information found in the GitHub repository and in the Jupyter notebook, and post questions there as <a class="reference external" href="https://github.com/amazon-riverbgc/trocas-herokuapp1/issues">GitHub issues</a>.</p>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
