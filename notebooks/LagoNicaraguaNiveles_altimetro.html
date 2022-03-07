@@ -4,10 +4,12 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
     <title>Niveles de agua del Lago Cocibolca basado en altimetria satelital &#8212; TROCAS</title>
     
-  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -19,14 +21,10 @@
 
     
       
-  <link rel="stylesheet"
-    href="../_static/vendor/open-sans_all/1.44.1/index.css">
-  <link rel="stylesheet"
-    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
 
     
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -34,45 +32,38 @@
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="canonical" href="https://amazon-riverbgc.github.io/TROCAS/notebooks/LagoNicaraguaNiveles_altimetro.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="prev" title="Jupyter Notebooks" href="index.html" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="None">
+    
 
-
-<!-- Opengraph tags -->
-<meta property="og:url"         content="https://amazon-riverbgc.github.io/TROCAS/notebooks/LagoNicaraguaNiveles_altimetro.html" />
-<meta property="og:type"        content="article" />
-<meta property="og:title"       content="Niveles de agua del Lago Cocibolca basado en altimetria satelital" />
-<meta property="og:description" content="Niveles de agua del Lago Cocibolca basado en altimetria satelital  1/25,23,18/2021  IPAD pagina web, Lago Cocibolca  IPAD archivo KML con puntos del “track” del" />
-<meta property="og:image"       content="https://amazon-riverbgc.github.io/TROCAS/_static/mouth_databrowser.jpg" />
-
-<meta name="twitter:card" content="summary" />
-
-
+    <!-- Google Analytics -->
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
     
 
     <div class="container-xl">
@@ -81,25 +72,29 @@
 <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
     
         <div class="navbar-brand-box">
-<a class="navbar-brand text-wrap" href="../index.html">
-  
-  <img src="../_static/mouth_databrowser.jpg" class="logo" alt="logo">
-  
-  
-  <h1 class="site-logo" id="site-title">TROCAS</h1>
-  
-</a>
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/mouth_databrowser.jpg" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">TROCAS</h1>
+      
+    </a>
 </div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form>
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-    <p class="caption collapsible-parent">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Project
  </span>
 </p>
-<ul class="nav sidenav_l1">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../docs/project.html">
    Project Description
@@ -116,12 +111,12 @@
   </a>
  </li>
 </ul>
-<p class="caption collapsible-parent">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
   Data &amp; Computation
  </span>
 </p>
-<ul class="current nav sidenav_l1">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../docs/data.html">
    Data
@@ -132,22 +127,26 @@
    TROCAS Data Browser
   </a>
  </li>
- <li class="toctree-l1 current active collapsible-parent">
+ <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="index.html">
    Jupyter Notebooks
   </a>
-  <ul class="current collapse-ul">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
    <li class="toctree-l2 current active">
     <a class="current reference internal" href="#">
      Niveles de agua del Lago Cocibolca basado en altimetria satelital
     </a>
    </li>
   </ul>
-  <i class="fas fa-chevron-down">
-  </i>
  </li>
 </ul>
 
+    </div>
 </nav> <!-- To handle the deprecated key -->
 
 </div>
@@ -159,21 +158,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
             class="fas fa-download"></i></button>
@@ -187,11 +186,11 @@
                 data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -211,14 +210,14 @@
     </div>
 </div>
 
+            <!-- Full screen (wrap in <a> to have style consistency -->
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
-                    class="fas fa-expand"></i></button></a>
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -237,16 +236,16 @@
     </div>
 </div>
 
-    </div>
-
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
         </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#acceder-e-ingerir-los-datos-de-niveles-de-agua">
    Acceder e ingerir los datos de niveles de agua
@@ -269,16 +268,54 @@
  </li>
 </ul>
 
-        </nav>
-        
+            </nav>
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Niveles de agua del Lago Cocibolca basado en altimetria satelital</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#acceder-e-ingerir-los-datos-de-niveles-de-agua">
+   Acceder e ingerir los datos de niveles de agua
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pre-procesar-y-suplementar-los-datos-ingeridos">
+   Pre-procesar y suplementar los datos ingeridos
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#explorar-patrones-temporales">
+   Explorar patrones temporales
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#leer-el-paso-satelital-y-visualizar-en-un-mapa">
+   Leer el paso satelital y visualizar en un mapa
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
               <div>
                 
-  <div class="section" id="niveles-de-agua-del-lago-cocibolca-basado-en-altimetria-satelital">
+  <section class="tex2jax_ignore mathjax_ignore" id="niveles-de-agua-del-lago-cocibolca-basado-en-altimetria-satelital">
 <h1>Niveles de agua del Lago Cocibolca basado en altimetria satelital<a class="headerlink" href="#niveles-de-agua-del-lago-cocibolca-basado-en-altimetria-satelital" title="Permalink to this headline">¶</a></h1>
 <p>1/25,23,18/2021</p>
 <ul class="simple">
@@ -286,9 +323,9 @@
 <li><p><a class="reference external" href="https://ipad.fas.usda.gov/rssiws/ggeoxml/351_Nicaragua.kml">IPAD archivo KML con puntos del “track” del sensor altimetrico</a></p></li>
 <li><p><a class="reference external" href="https://appliedsciences.nasa.gov/join-mission/training/english/mapping-and-monitoring-lakes-and-reservoirs-satellite-observations">https://appliedsciences.nasa.gov/join-mission/training/english/mapping-and-monitoring-lakes-and-reservoirs-satellite-observations</a></p></li>
 <li><p><a class="reference external" href="https://appliedsciences.nasa.gov/our-impact/news/africa-flores-breakthrough-scientist">https://appliedsciences.nasa.gov/our-impact/news/africa-flores-breakthrough-scientist</a></p></li>
-<li><p>https://www.google.com/search?q=altimetria+satelite+radar</p></li>
-<li><p>https://en.wikipedia.org/wiki/Sentinel-6_Michael_Freilich</p></li>
-<li><p>https://www.aviso.altimetry.fr/es/casero.html</p></li>
+<li><p><a class="reference external" href="https://www.google.com/search?q=altimetria+satelite+radar">https://www.google.com/search?q=altimetria+satelite+radar</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Sentinel-6_Michael_Freilich">https://en.wikipedia.org/wiki/Sentinel-6_Michael_Freilich</a></p></li>
+<li><p><a class="reference external" href="https://www.aviso.altimetry.fr/es/casero.html">https://www.aviso.altimetry.fr/es/casero.html</a></p></li>
 <li><p><em>From Charon Birkett</em></p>
 <ul>
 <li><p>1/25: The USDA G-REALM site is back up and running</p></li>
@@ -320,7 +357,7 @@
 </div>
 </div>
 </div>
-<div class="section" id="acceder-e-ingerir-los-datos-de-niveles-de-agua">
+<section id="acceder-e-ingerir-los-datos-de-niveles-de-agua">
 <h2>Acceder e ingerir los datos de niveles de agua<a class="headerlink" href="#acceder-e-ingerir-los-datos-de-niveles-de-agua" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -350,6 +387,130 @@
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df0</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;fecha&#39;</span><span class="p">,</span> <span class="s1">&#39;hora&#39;</span><span class="p">,</span> <span class="s1">&#39;minuto&#39;</span><span class="p">,</span> <span class="s1">&#39;nivel&#39;</span><span class="p">,</span> <span class="s1">&#39;nivel_egm2008&#39;</span><span class="p">],</span>
                   <span class="n">skiprows</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;\s+&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">HTTPError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="nn">Input In [5],</span> in <span class="ni">&lt;cell line: 1&gt;</span><span class="nt">()</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">df0</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;fecha&#39;</span><span class="p">,</span> <span class="s1">&#39;hora&#39;</span><span class="p">,</span> <span class="s1">&#39;minuto&#39;</span><span class="p">,</span> <span class="s1">&#39;nivel&#39;</span><span class="p">,</span> <span class="s1">&#39;nivel_egm2008&#39;</span><span class="p">],</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span>                   <span class="n">skiprows</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;\s+&#39;</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/util/_decorators.py:311,</span> in <span class="ni">deprecate_nonkeyword_arguments.&lt;locals&gt;.decorate.&lt;locals&gt;.wrapper</span><span class="nt">(*args, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">305</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">num_allow_args</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">306</span>     <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">307</span>         <span class="n">msg</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">arguments</span><span class="o">=</span><span class="n">arguments</span><span class="p">),</span>
+<span class="g g-Whitespace">    </span><span class="mi">308</span>         <span class="ne">FutureWarning</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">309</span>         <span class="n">stacklevel</span><span class="o">=</span><span class="n">stacklevel</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">310</span>     <span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">311</span> <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py:680,</span> in <span class="ni">read_csv</span><span class="nt">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, error_bad_lines, warn_bad_lines, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">665</span> <span class="n">kwds_defaults</span> <span class="o">=</span> <span class="n">_refine_defaults_read</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">666</span>     <span class="n">dialect</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">667</span>     <span class="n">delimiter</span><span class="p">,</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">676</span>     <span class="n">defaults</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;delimiter&quot;</span><span class="p">:</span> <span class="s2">&quot;,&quot;</span><span class="p">},</span>
+<span class="g g-Whitespace">    </span><span class="mi">677</span> <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">678</span> <span class="n">kwds</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">kwds_defaults</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">680</span> <span class="k">return</span> <span class="n">_read</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="n">kwds</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py:575,</span> in <span class="ni">_read</span><span class="nt">(filepath_or_buffer, kwds)</span>
+<span class="g g-Whitespace">    </span><span class="mi">572</span> <span class="n">_validate_names</span><span class="p">(</span><span class="n">kwds</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;names&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+<span class="g g-Whitespace">    </span><span class="mi">574</span> <span class="c1"># Create the parser.</span>
+<span class="ne">--&gt; </span><span class="mi">575</span> <span class="n">parser</span> <span class="o">=</span> <span class="n">TextFileReader</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">577</span> <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">or</span> <span class="n">iterator</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">578</span>     <span class="k">return</span> <span class="n">parser</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py:933,</span> in <span class="ni">TextFileReader.__init__</span><span class="nt">(self, f, engine, **kwds)</span>
+<span class="g g-Whitespace">    </span><span class="mi">930</span>     <span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">kwds</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span>
+<span class="g g-Whitespace">    </span><span class="mi">932</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="p">:</span> <span class="n">IOHandles</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="ne">--&gt; </span><span class="mi">933</span> <span class="bp">self</span><span class="o">.</span><span class="n">_engine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_engine</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">engine</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/io/parsers/readers.py:1217,</span> in <span class="ni">TextFileReader._make_engine</span><span class="nt">(self, f, engine)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1213</span>     <span class="n">mode</span> <span class="o">=</span> <span class="s2">&quot;rb&quot;</span>
+<span class="g g-Whitespace">   </span><span class="mi">1214</span> <span class="c1"># error: No overload variant of &quot;get_handle&quot; matches argument types</span>
+<span class="g g-Whitespace">   </span><span class="mi">1215</span> <span class="c1"># &quot;Union[str, PathLike[str], ReadCsvBuffer[bytes], ReadCsvBuffer[str]]&quot;</span>
+<span class="g g-Whitespace">   </span><span class="mi">1216</span> <span class="c1"># , &quot;str&quot;, &quot;bool&quot;, &quot;Any&quot;, &quot;Any&quot;, &quot;Any&quot;, &quot;Any&quot;, &quot;Any&quot;</span>
+<span class="ne">-&gt; </span><span class="mi">1217</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="o">=</span> <span class="n">get_handle</span><span class="p">(</span>  <span class="c1"># type: ignore[call-overload]</span>
+<span class="g g-Whitespace">   </span><span class="mi">1218</span>     <span class="n">f</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1219</span>     <span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1220</span>     <span class="n">encoding</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1221</span>     <span class="n">compression</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;compression&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1222</span>     <span class="n">memory_map</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;memory_map&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1223</span>     <span class="n">is_text</span><span class="o">=</span><span class="n">is_text</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1224</span>     <span class="n">errors</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding_errors&quot;</span><span class="p">,</span> <span class="s2">&quot;strict&quot;</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1225</span>     <span class="n">storage_options</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;storage_options&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1226</span> <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1227</span> <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+<span class="g g-Whitespace">   </span><span class="mi">1228</span> <span class="n">f</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="o">.</span><span class="n">handle</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/io/common.py:670,</span> in <span class="ni">get_handle</span><span class="nt">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">667</span>     <span class="n">codecs</span><span class="o">.</span><span class="n">lookup_error</span><span class="p">(</span><span class="n">errors</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">669</span> <span class="c1"># open URLs</span>
+<span class="ne">--&gt; </span><span class="mi">670</span> <span class="n">ioargs</span> <span class="o">=</span> <span class="n">_get_filepath_or_buffer</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">671</span>     <span class="n">path_or_buf</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">672</span>     <span class="n">encoding</span><span class="o">=</span><span class="n">encoding</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">673</span>     <span class="n">compression</span><span class="o">=</span><span class="n">compression</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">674</span>     <span class="n">mode</span><span class="o">=</span><span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">675</span>     <span class="n">storage_options</span><span class="o">=</span><span class="n">storage_options</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">676</span> <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">678</span> <span class="n">handle</span> <span class="o">=</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">filepath_or_buffer</span>
+<span class="g g-Whitespace">    </span><span class="mi">679</span> <span class="n">handles</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">BaseBuffer</span><span class="p">]</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/io/common.py:339,</span> in <span class="ni">_get_filepath_or_buffer</span><span class="nt">(filepath_or_buffer, encoding, compression, mode, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">337</span> <span class="c1"># assuming storage_options is to be interpreted as headers</span>
+<span class="g g-Whitespace">    </span><span class="mi">338</span> <span class="n">req_info</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">Request</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">storage_options</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">339</span> <span class="k">with</span> <span class="n">urlopen</span><span class="p">(</span><span class="n">req_info</span><span class="p">)</span> <span class="k">as</span> <span class="n">req</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">340</span>     <span class="n">content_encoding</span> <span class="o">=</span> <span class="n">req</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;Content-Encoding&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">341</span>     <span class="k">if</span> <span class="n">content_encoding</span> <span class="o">==</span> <span class="s2">&quot;gzip&quot;</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">342</span>         <span class="c1"># Override compression based on Content-Encoding header</span>
+
+<span class="nn">File ~/.local/lib/python3.9/site-packages/pandas/io/common.py:239,</span> in <span class="ni">urlopen</span><span class="nt">(*args, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">233</span> <span class="sd">&quot;&quot;&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">234</span><span class="sd"> Lazy-import wrapper for stdlib urlopen, as that imports a big chunk of</span>
+<span class="g g-Whitespace">    </span><span class="mi">235</span><span class="sd"> the stdlib.</span>
+<span class="g g-Whitespace">    </span><span class="mi">236</span><span class="sd"> &quot;&quot;&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">237</span> <span class="kn">import</span> <span class="nn">urllib.request</span>
+<span class="ne">--&gt; </span><span class="mi">239</span> <span class="k">return</span> <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+<span class="nn">File ~/miniconda3/envs/trocasweb/lib/python3.9/urllib/request.py:214,</span> in <span class="ni">urlopen</span><span class="nt">(url, data, timeout, cafile, capath, cadefault, context)</span>
+<span class="g g-Whitespace">    </span><span class="mi">212</span> <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">213</span>     <span class="n">opener</span> <span class="o">=</span> <span class="n">_opener</span>
+<span class="ne">--&gt; </span><span class="mi">214</span> <span class="k">return</span> <span class="n">opener</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">timeout</span><span class="p">)</span>
+
+<span class="nn">File ~/miniconda3/envs/trocasweb/lib/python3.9/urllib/request.py:523,</span> in <span class="ni">OpenerDirector.open</span><span class="nt">(self, fullurl, data, timeout)</span>
+<span class="g g-Whitespace">    </span><span class="mi">521</span> <span class="k">for</span> <span class="n">processor</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">process_response</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">protocol</span><span class="p">,</span> <span class="p">[]):</span>
+<span class="g g-Whitespace">    </span><span class="mi">522</span>     <span class="n">meth</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">processor</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">523</span>     <span class="n">response</span> <span class="o">=</span> <span class="n">meth</span><span class="p">(</span><span class="n">req</span><span class="p">,</span> <span class="n">response</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">525</span> <span class="k">return</span> <span class="n">response</span>
+
+<span class="nn">File ~/miniconda3/envs/trocasweb/lib/python3.9/urllib/request.py:632,</span> in <span class="ni">HTTPErrorProcessor.http_response</span><span class="nt">(self, request, response)</span>
+<span class="g g-Whitespace">    </span><span class="mi">629</span> <span class="c1"># According to RFC 2616, &quot;2xx&quot; code indicates that the client&#39;s</span>
+<span class="g g-Whitespace">    </span><span class="mi">630</span> <span class="c1"># request was successfully received, understood, and accepted.</span>
+<span class="g g-Whitespace">    </span><span class="mi">631</span> <span class="k">if</span> <span class="ow">not</span> <span class="p">(</span><span class="mi">200</span> <span class="o">&lt;=</span> <span class="n">code</span> <span class="o">&lt;</span> <span class="mi">300</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">632</span>     <span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">633</span>         <span class="s1">&#39;http&#39;</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">response</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">635</span> <span class="k">return</span> <span class="n">response</span>
+
+<span class="nn">File ~/miniconda3/envs/trocasweb/lib/python3.9/urllib/request.py:561,</span> in <span class="ni">OpenerDirector.error</span><span class="nt">(self, proto, *args)</span>
+<span class="g g-Whitespace">    </span><span class="mi">559</span> <span class="k">if</span> <span class="n">http_err</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">560</span>     <span class="n">args</span> <span class="o">=</span> <span class="p">(</span><span class="nb">dict</span><span class="p">,</span> <span class="s1">&#39;default&#39;</span><span class="p">,</span> <span class="s1">&#39;http_error_default&#39;</span><span class="p">)</span> <span class="o">+</span> <span class="n">orig_args</span>
+<span class="ne">--&gt; </span><span class="mi">561</span>     <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_call_chain</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+
+<span class="nn">File ~/miniconda3/envs/trocasweb/lib/python3.9/urllib/request.py:494,</span> in <span class="ni">OpenerDirector._call_chain</span><span class="nt">(self, chain, kind, meth_name, *args)</span>
+<span class="g g-Whitespace">    </span><span class="mi">492</span> <span class="k">for</span> <span class="n">handler</span> <span class="ow">in</span> <span class="n">handlers</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">493</span>     <span class="n">func</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">handler</span><span class="p">,</span> <span class="n">meth_name</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">494</span>     <span class="n">result</span> <span class="o">=</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">495</span>     <span class="k">if</span> <span class="n">result</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">496</span>         <span class="k">return</span> <span class="n">result</span>
+
+<span class="nn">File ~/miniconda3/envs/trocasweb/lib/python3.9/urllib/request.py:641,</span> in <span class="ni">HTTPDefaultErrorHandler.http_error_default</span><span class="nt">(self, req, fp, code, msg, hdrs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">640</span> <span class="k">def</span> <span class="nf">http_error_default</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">req</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">641</span>     <span class="k">raise</span> <span class="n">HTTPError</span><span class="p">(</span><span class="n">req</span><span class="o">.</span><span class="n">full_url</span><span class="p">,</span> <span class="n">code</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">hdrs</span><span class="p">,</span> <span class="n">fp</span><span class="p">)</span>
+
+<span class="ne">HTTPError</span>: HTTP Error 404: Not Found
 </pre></div>
 </div>
 </div>
@@ -460,8 +621,8 @@ dtype: object
 </div>
 </div>
 </div>
-</div>
-<div class="section" id="pre-procesar-y-suplementar-los-datos-ingeridos">
+</section>
+<section id="pre-procesar-y-suplementar-los-datos-ingeridos">
 <h2>Pre-procesar y suplementar los datos ingeridos<a class="headerlink" href="#pre-procesar-y-suplementar-los-datos-ingeridos" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -633,8 +794,8 @@ dtype: object
 </div>
 </div>
 </div>
-</div>
-<div class="section" id="explorar-patrones-temporales">
+</section>
+<section id="explorar-patrones-temporales">
 <h2>Explorar patrones temporales<a class="headerlink" href="#explorar-patrones-temporales" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -668,11 +829,11 @@ dtype: object
 </div>
 </div>
 </div>
-<p>x-axis date formatting. Probably better to use matplotlib date formatting. See https://www.earthdatascience.org/courses/use-data-open-source-python/use-time-series-data-in-python/date-time-types-in-pandas-python/customize-dates-matplotlib-plots-python/</p>
+<p>x-axis date formatting. Probably better to use matplotlib date formatting. See <a class="reference external" href="https://www.earthdatascience.org/courses/use-data-open-source-python/use-time-series-data-in-python/date-time-types-in-pandas-python/customize-dates-matplotlib-plots-python/">https://www.earthdatascience.org/courses/use-data-open-source-python/use-time-series-data-in-python/date-time-types-in-pandas-python/customize-dates-matplotlib-plots-python/</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># markers=True, dashes=False: these have no effect</span>
-<span class="n">palette</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">cubehelix_palette</span><span class="p">(</span><span class="n">light</span><span class="o">=.</span><span class="mi">9</span><span class="p">,</span> <span class="n">n_colors</span><span class="o">=</span><span class="mi">29</span><span class="p">)</span>
+<span class="n">palette</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">cubehelix_palette</span><span class="p">(</span><span class="n">light</span><span class="o">=</span><span class="mf">.9</span><span class="p">,</span> <span class="n">n_colors</span><span class="o">=</span><span class="mi">29</span><span class="p">)</span>
 
 <span class="n">sns</span><span class="o">.</span><span class="n">relplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s2">&quot;dda&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;nivel&quot;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s2">&quot;año&quot;</span><span class="p">,</span> <span class="n">kind</span><span class="o">=</span><span class="s1">&#39;line&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="n">palette</span><span class="p">,</span>
             <span class="n">height</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">aspect</span><span class="o">=</span><span class="mf">1.5</span><span class="p">)</span>
@@ -732,8 +893,8 @@ dtype: object
 <img alt="../_images/LagoNicaraguaNiveles_altimetro_28_0.png" src="../_images/LagoNicaraguaNiveles_altimetro_28_0.png" />
 </div>
 </div>
-</div>
-<div class="section" id="leer-el-paso-satelital-y-visualizar-en-un-mapa">
+</section>
+<section id="leer-el-paso-satelital-y-visualizar-en-un-mapa">
 <h2>Leer el paso satelital y visualizar en un mapa<a class="headerlink" href="#leer-el-paso-satelital-y-visualizar-en-un-mapa" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -749,7 +910,7 @@ dtype: object
 </div>
 </div>
 </div>
-<p>See this good reference for reading KMLs and their complexities: https://gis.stackexchange.com/questions/328525/geopandas-read-file-only-reading-first-part-of-kml</p>
+<p>See this good reference for reading KMLs and their complexities: <a class="reference external" href="https://gis.stackexchange.com/questions/328525/geopandas-read-file-only-reading-first-part-of-kml">https://gis.stackexchange.com/questions/328525/geopandas-read-file-only-reading-first-part-of-kml</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">gdf</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">kmlurl</span><span class="p">,</span> <span class="n">driver</span><span class="o">=</span><span class="s1">&#39;KML&#39;</span><span class="p">)</span>
@@ -872,10 +1033,10 @@ dtype: int64
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html"><div style="width:60%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe src="about:blank" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" data-html=%3C%21DOCTYPE%20html%3E%0A%3Chead%3E%20%20%20%20%0A%20%20%20%20%3Cmeta%20http-equiv%3D%22content-type%22%20content%3D%22text/html%3B%20charset%3DUTF-8%22%20/%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Cscript%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20L_NO_TOUCH%20%3D%20false%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20L_DISABLE_3D%20%3D%20false%3B%0A%20%20%20%20%20%20%20%20%3C/script%3E%0A%20%20%20%20%0A%20%20%20%20%3Cstyle%3Ehtml%2C%20body%20%7Bwidth%3A%20100%25%3Bheight%3A%20100%25%3Bmargin%3A%200%3Bpadding%3A%200%3B%7D%3C/style%3E%0A%20%20%20%20%3Cstyle%3E%23map%20%7Bposition%3Aabsolute%3Btop%3A0%3Bbottom%3A0%3Bright%3A0%3Bleft%3A0%3B%7D%3C/style%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//cdn.jsdelivr.net/npm/leaflet%401.6.0/dist/leaflet.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//code.jquery.com/jquery-1.12.4.min.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js%22%3E%3C/script%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdn.jsdelivr.net/npm/leaflet%401.6.0/dist/leaflet.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css%22/%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20initial-scale%3D1.0%2C%20maximum-scale%3D1.0%2C%20user-scalable%3Dno%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%23map_5452833f06ab467a9f6b50431102a592%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20position%3A%20relative%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20width%3A%20100.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20height%3A%20100.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20left%3A%200.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20top%3A%200.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%20%20%20%20%0A%3C/head%3E%0A%3Cbody%3E%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22folium-map%22%20id%3D%22map_5452833f06ab467a9f6b50431102a592%22%20%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%0A%3C/body%3E%0A%3Cscript%3E%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20map_5452833f06ab467a9f6b50431102a592%20%3D%20L.map%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22map_5452833f06ab467a9f6b50431102a592%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20center%3A%20%5B0%2C%200%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20crs%3A%20L.CRS.EPSG3857%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20zoom%3A%201%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20zoomControl%3A%20true%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20preferCanvas%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20tile_layer_9e8e27ca02054c5e8f30357a6941b8c5%20%3D%20L.tileLayer%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22https%3A//stamen-tiles-%7Bs%7D.a.ssl.fastly.net/terrain/%7Bz%7D/%7Bx%7D/%7By%7D.jpg%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%22attribution%22%3A%20%22Map%20tiles%20by%20%5Cu003ca%20href%3D%5C%22http%3A//stamen.com%5C%22%5Cu003eStamen%20Design%5Cu003c/a%5Cu003e%2C%20under%20%5Cu003ca%20href%3D%5C%22http%3A//creativecommons.org/licenses/by/3.0%5C%22%5Cu003eCC%20BY%203.0%5Cu003c/a%5Cu003e.%20Data%20by%20%5Cu0026copy%3B%20%5Cu003ca%20href%3D%5C%22http%3A//openstreetmap.org%5C%22%5Cu003eOpenStreetMap%5Cu003c/a%5Cu003e%2C%20under%20%5Cu003ca%20href%3D%5C%22http%3A//creativecommons.org/licenses/by-sa/3.0%5C%22%5Cu003eCC%20BY%20SA%5Cu003c/a%5Cu003e.%22%2C%20%22detectRetina%22%3A%20false%2C%20%22maxNativeZoom%22%3A%2018%2C%20%22maxZoom%22%3A%2018%2C%20%22minZoom%22%3A%200%2C%20%22noWrap%22%3A%20false%2C%20%22opacity%22%3A%201%2C%20%22subdomains%22%3A%20%22abc%22%2C%20%22tms%22%3A%20false%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29.addTo%28map_5452833f06ab467a9f6b50431102a592%29%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20function%20geo_json_666585c2c50845f3a0d7ff18d432b13f_onEachFeature%28feature%2C%20layer%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20layer.on%28%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%29%3B%0A%20%20%20%20%20%20%20%20%7D%3B%0A%20%20%20%20%20%20%20%20var%20geo_json_666585c2c50845f3a0d7ff18d432b13f%20%3D%20L.geoJson%28null%2C%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20onEachFeature%3A%20geo_json_666585c2c50845f3a0d7ff18d432b13f_onEachFeature%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7D%29%3B%0A%0A%20%20%20%20%20%20%20%20function%20geo_json_666585c2c50845f3a0d7ff18d432b13f_add%20%28data%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20geo_json_666585c2c50845f3a0d7ff18d432b13f%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.addData%28data%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.addTo%28map_5452833f06ab467a9f6b50431102a592%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20geo_json_666585c2c50845f3a0d7ff18d432b13f_add%28%7B%22bbox%22%3A%20%5B-85.800735%2C%2011.562684%2C%20-85.627587%2C%2012.021546%5D%2C%20%22features%22%3A%20%5B%7B%22bbox%22%3A%20%5B-85.800735%2C%2011.562684%2C%20-85.627587%2C%2012.021546%5D%2C%20%22geometry%22%3A%20%7B%22coordinates%22%3A%20%5B%5B-85.800735%2C%2011.562684%5D%2C%20%5B-85.799817%2C%2011.565126%5D%2C%20%5B-85.798898%2C%2011.567567%5D%2C%20%5B-85.797979%2C%2011.570008%5D%2C%20%5B-85.79706%2C%2011.572449%5D%2C%20%5B-85.796141%2C%2011.574891%5D%2C%20%5B-85.795222%2C%2011.577332%5D%2C%20%5B-85.794303%2C%2011.579773%5D%2C%20%5B-85.793384%2C%2011.582214%5D%2C%20%5B-85.792465%2C%2011.584656%5D%2C%20%5B-85.791546%2C%2011.587097%5D%2C%20%5B-85.790623%2C%2011.589537%5D%2C%20%5B-85.789703%2C%2011.591978%5D%2C%20%5B-85.788784%2C%2011.594419%5D%2C%20%5B-85.787865%2C%2011.596861%5D%2C%20%5B-85.786945%2C%2011.599302%5D%2C%20%5B-85.786026%2C%2011.601743%5D%2C%20%5B-85.785107%2C%2011.604184%5D%2C%20%5B-85.784187%2C%2011.606625%5D%2C%20%5B-85.783268%2C%2011.609066%5D%2C%20%5B-85.782349%2C%2011.611507%5D%2C%20%5B-85.781429%2C%2011.613949%5D%2C%20%5B-85.78051%2C%2011.61639%5D%2C%20%5B-85.779591%2C%2011.618831%5D%2C%20%5B-85.778671%2C%2011.621272%5D%2C%20%5B-85.777752%2C%2011.623713%5D%2C%20%5B-85.776833%2C%2011.626154%5D%2C%20%5B-85.775913%2C%2011.628595%5D%2C%20%5B-85.774994%2C%2011.631037%5D%2C%20%5B-85.774075%2C%2011.633478%5D%2C%20%5B-85.773155%2C%2011.635919%5D%2C%20%5B-85.772231%2C%2011.638359%5D%2C%20%5B-85.771311%2C%2011.6408%5D%2C%20%5B-85.770392%2C%2011.643241%5D%2C%20%5B-85.769472%2C%2011.645682%5D%2C%20%5B-85.768552%2C%2011.648123%5D%2C%20%5B-85.767632%2C%2011.650564%5D%2C%20%5B-85.766712%2C%2011.653005%5D%2C%20%5B-85.765793%2C%2011.655446%5D%2C%20%5B-85.764873%2C%2011.657887%5D%2C%20%5B-85.763953%2C%2011.660328%5D%2C%20%5B-85.763033%2C%2011.66277%5D%2C%20%5B-85.762113%2C%2011.665211%5D%2C%20%5B-85.761194%2C%2011.667652%5D%2C%20%5B-85.760274%2C%2011.670093%5D%2C%20%5B-85.759354%2C%2011.672534%5D%2C%20%5B-85.758434%2C%2011.674975%5D%2C%20%5B-85.757514%2C%2011.677416%5D%2C%20%5B-85.756595%2C%2011.679857%5D%2C%20%5B-85.755675%2C%2011.682298%5D%2C%20%5B-85.754755%2C%2011.684739%5D%2C%20%5B-85.753832%2C%2011.687179%5D%2C%20%5B-85.752912%2C%2011.689621%5D%2C%20%5B-85.751992%2C%2011.692061%5D%2C%20%5B-85.751072%2C%2011.694503%5D%2C%20%5B-85.750152%2C%2011.696943%5D%2C%20%5B-85.749231%2C%2011.699384%5D%2C%20%5B-85.748311%2C%2011.701825%5D%2C%20%5B-85.747391%2C%2011.704266%5D%2C%20%5B-85.746471%2C%2011.706708%5D%2C%20%5B-85.745551%2C%2011.709148%5D%2C%20%5B-85.744631%2C%2011.71159%5D%2C%20%5B-85.743711%2C%2011.71403%5D%2C%20%5B-85.742791%2C%2011.716472%5D%2C%20%5B-85.741871%2C%2011.718913%5D%2C%20%5B-85.740951%2C%2011.721354%5D%2C%20%5B-85.74003%2C%2011.723795%5D%2C%20%5B-85.73911%2C%2011.726235%5D%2C%20%5B-85.73819%2C%2011.728677%5D%2C%20%5B-85.73727%2C%2011.731117%5D%2C%20%5B-85.73635%2C%2011.733559%5D%2C%20%5B-85.735425%2C%2011.735998%5D%2C%20%5B-85.734505%2C%2011.738439%5D%2C%20%5B-85.733584%2C%2011.74088%5D%2C%20%5B-85.732664%2C%2011.74332%5D%2C%20%5B-85.731743%2C%2011.745761%5D%2C%20%5B-85.730822%2C%2011.748202%5D%2C%20%5B-85.729902%2C%2011.750643%5D%2C%20%5B-85.728981%2C%2011.753084%5D%2C%20%5B-85.728061%2C%2011.755525%5D%2C%20%5B-85.72714%2C%2011.757966%5D%2C%20%5B-85.72622%2C%2011.760406%5D%2C%20%5B-85.725299%2C%2011.762847%5D%2C%20%5B-85.724379%2C%2011.765288%5D%2C%20%5B-85.723458%2C%2011.767729%5D%2C%20%5B-85.722538%2C%2011.77017%5D%2C%20%5B-85.721617%2C%2011.772611%5D%2C%20%5B-85.720696%2C%2011.775052%5D%2C%20%5B-85.719776%2C%2011.777492%5D%2C%20%5B-85.718855%2C%2011.779933%5D%2C%20%5B-85.717935%2C%2011.782374%5D%2C%20%5B-85.71701%2C%2011.784814%5D%2C%20%5B-85.716089%2C%2011.787255%5D%2C%20%5B-85.715168%2C%2011.789696%5D%2C%20%5B-85.714247%2C%2011.792137%5D%2C%20%5B-85.713326%2C%2011.794578%5D%2C%20%5B-85.712405%2C%2011.797018%5D%2C%20%5B-85.711484%2C%2011.799459%5D%2C%20%5B-85.710563%2C%2011.8019%5D%2C%20%5B-85.709642%2C%2011.804341%5D%2C%20%5B-85.708721%2C%2011.806782%5D%2C%20%5B-85.707801%2C%2011.809222%5D%2C%20%5B-85.70688%2C%2011.811663%5D%2C%20%5B-85.705959%2C%2011.814104%5D%2C%20%5B-85.705038%2C%2011.816545%5D%2C%20%5B-85.704117%2C%2011.818986%5D%2C%20%5B-85.703196%2C%2011.821426%5D%2C%20%5B-85.702275%2C%2011.823867%5D%2C%20%5B-85.701354%2C%2011.826308%5D%2C%20%5B-85.700433%2C%2011.828749%5D%2C%20%5B-85.699512%2C%2011.83119%5D%2C%20%5B-85.698587%2C%2011.833629%5D%2C%20%5B-85.697665%2C%2011.836069%5D%2C%20%5B-85.696744%2C%2011.83851%5D%2C%20%5B-85.695823%2C%2011.840951%5D%2C%20%5B-85.694901%2C%2011.843391%5D%2C%20%5B-85.69398%2C%2011.845832%5D%2C%20%5B-85.693059%2C%2011.848273%5D%2C%20%5B-85.692137%2C%2011.850713%5D%2C%20%5B-85.691216%2C%2011.853154%5D%2C%20%5B-85.690295%2C%2011.855595%5D%2C%20%5B-85.689373%2C%2011.858035%5D%2C%20%5B-85.688452%2C%2011.860476%5D%2C%20%5B-85.687531%2C%2011.862917%5D%2C%20%5B-85.686609%2C%2011.865357%5D%2C%20%5B-85.685688%2C%2011.867798%5D%2C%20%5B-85.684767%2C%2011.870239%5D%2C%20%5B-85.683845%2C%2011.872679%5D%2C%20%5B-85.682924%2C%2011.87512%5D%2C%20%5B-85.682003%2C%2011.877561%5D%2C%20%5B-85.681081%2C%2011.880001%5D%2C%20%5B-85.680156%2C%2011.882441%5D%2C%20%5B-85.679234%2C%2011.884881%5D%2C%20%5B-85.678312%2C%2011.887322%5D%2C%20%5B-85.67739%2C%2011.889762%5D%2C%20%5B-85.676469%2C%2011.892203%5D%2C%20%5B-85.675547%2C%2011.894644%5D%2C%20%5B-85.674625%2C%2011.897084%5D%2C%20%5B-85.673703%2C%2011.899525%5D%2C%20%5B-85.672782%2C%2011.901965%5D%2C%20%5B-85.67186%2C%2011.904406%5D%2C%20%5B-85.670938%2C%2011.906846%5D%2C%20%5B-85.670016%2C%2011.909287%5D%2C%20%5B-85.669095%2C%2011.911727%5D%2C%20%5B-85.668173%2C%2011.914168%5D%2C%20%5B-85.667251%2C%2011.916608%5D%2C%20%5B-85.666329%2C%2011.919049%5D%2C%20%5B-85.665408%2C%2011.92149%5D%2C%20%5B-85.664486%2C%2011.92393%5D%2C%20%5B-85.663564%2C%2011.926371%5D%2C%20%5B-85.662642%2C%2011.928811%5D%2C%20%5B-85.661717%2C%2011.931251%5D%2C%20%5B-85.660795%2C%2011.933692%5D%2C%20%5B-85.659873%2C%2011.936132%5D%2C%20%5B-85.658951%2C%2011.938573%5D%2C%20%5B-85.658029%2C%2011.941013%5D%2C%20%5B-85.657106%2C%2011.943454%5D%2C%20%5B-85.656184%2C%2011.945894%5D%2C%20%5B-85.655262%2C%2011.948335%5D%2C%20%5B-85.65434%2C%2011.950775%5D%2C%20%5B-85.653418%2C%2011.953216%5D%2C%20%5B-85.652496%2C%2011.955656%5D%2C%20%5B-85.651574%2C%2011.958097%5D%2C%20%5B-85.650652%2C%2011.960537%5D%2C%20%5B-85.64973%2C%2011.962978%5D%2C%20%5B-85.648808%2C%2011.965418%5D%2C%20%5B-85.647885%2C%2011.967859%5D%2C%20%5B-85.646963%2C%2011.970299%5D%2C%20%5B-85.646041%2C%2011.97274%5D%2C%20%5B-85.645119%2C%2011.97518%5D%2C%20%5B-85.644197%2C%2011.977621%5D%2C%20%5B-85.64327%2C%2011.98006%5D%2C%20%5B-85.642348%2C%2011.9825%5D%2C%20%5B-85.641425%2C%2011.98494%5D%2C%20%5B-85.640503%2C%2011.987381%5D%2C%20%5B-85.63958%2C%2011.989821%5D%2C%20%5B-85.638657%2C%2011.992261%5D%2C%20%5B-85.637735%2C%2011.994702%5D%2C%20%5B-85.636812%2C%2011.997142%5D%2C%20%5B-85.63589%2C%2011.999582%5D%2C%20%5B-85.634967%2C%2012.002023%5D%2C%20%5B-85.634045%2C%2012.004463%5D%2C%20%5B-85.633122%2C%2012.006904%5D%2C%20%5B-85.6322%2C%2012.009344%5D%2C%20%5B-85.631277%2C%2012.011784%5D%2C%20%5B-85.630355%2C%2012.014225%5D%2C%20%5B-85.629432%2C%2012.016665%5D%2C%20%5B-85.628509%2C%2012.019105%5D%2C%20%5B-85.627587%2C%2012.021546%5D%5D%2C%20%22type%22%3A%20%22LineString%22%7D%2C%20%22id%22%3A%20%22189%22%2C%20%22properties%22%3A%20%7B%7D%2C%20%22type%22%3A%20%22Feature%22%7D%5D%2C%20%22type%22%3A%20%22FeatureCollection%22%7D%29%3B%0A%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20geo_json_666585c2c50845f3a0d7ff18d432b13f.bindTooltip%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%60%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paso%20satelital%20Topex/Jason%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%60%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%22sticky%22%3A%20true%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20map_5452833f06ab467a9f6b50431102a592.fitBounds%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5B%5B11.562684%2C%20-85.800735%5D%2C%20%5B12.021546%2C%20-85.627587%5D%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29%3B%0A%20%20%20%20%20%20%20%20%0A%3C/script%3E onload="this.contentDocument.open();this.contentDocument.write(    decodeURIComponent(this.getAttribute('data-html')));this.contentDocument.close();" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
+<div class="output text_html"><div style="width:60%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe src="about:blank" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" data-html=%3C%21DOCTYPE%20html%3E%0A%3Chead%3E%20%20%20%20%0A%20%20%20%20%3Cmeta%20http-equiv%3D%22content-type%22%20content%3D%22text/html%3B%20charset%3DUTF-8%22%20/%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Cscript%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20L_NO_TOUCH%20%3D%20false%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20L_DISABLE_3D%20%3D%20false%3B%0A%20%20%20%20%20%20%20%20%3C/script%3E%0A%20%20%20%20%0A%20%20%20%20%3Cstyle%3Ehtml%2C%20body%20%7Bwidth%3A%20100%25%3Bheight%3A%20100%25%3Bmargin%3A%200%3Bpadding%3A%200%3B%7D%3C/style%3E%0A%20%20%20%20%3Cstyle%3E%23map%20%7Bposition%3Aabsolute%3Btop%3A0%3Bbottom%3A0%3Bright%3A0%3Bleft%3A0%3B%7D%3C/style%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//cdn.jsdelivr.net/npm/leaflet%401.6.0/dist/leaflet.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//code.jquery.com/jquery-1.12.4.min.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js%22%3E%3C/script%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdn.jsdelivr.net/npm/leaflet%401.6.0/dist/leaflet.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css%22/%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20initial-scale%3D1.0%2C%20maximum-scale%3D1.0%2C%20user-scalable%3Dno%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%23map_ff64bf3491104709843c1b37b131ffc7%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20position%3A%20relative%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20width%3A%20100.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20height%3A%20100.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20left%3A%200.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20top%3A%200.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%20%20%20%20%0A%3C/head%3E%0A%3Cbody%3E%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22folium-map%22%20id%3D%22map_ff64bf3491104709843c1b37b131ffc7%22%20%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%0A%3C/body%3E%0A%3Cscript%3E%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20map_ff64bf3491104709843c1b37b131ffc7%20%3D%20L.map%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22map_ff64bf3491104709843c1b37b131ffc7%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20center%3A%20%5B0%2C%200%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20crs%3A%20L.CRS.EPSG3857%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20zoom%3A%201%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20zoomControl%3A%20true%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20preferCanvas%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20tile_layer_7ed7c5916cf74228973d85aa14af66a5%20%3D%20L.tileLayer%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22https%3A//stamen-tiles-%7Bs%7D.a.ssl.fastly.net/terrain/%7Bz%7D/%7Bx%7D/%7By%7D.jpg%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%22attribution%22%3A%20%22Map%20tiles%20by%20%5Cu003ca%20href%3D%5C%22http%3A//stamen.com%5C%22%5Cu003eStamen%20Design%5Cu003c/a%5Cu003e%2C%20under%20%5Cu003ca%20href%3D%5C%22http%3A//creativecommons.org/licenses/by/3.0%5C%22%5Cu003eCC%20BY%203.0%5Cu003c/a%5Cu003e.%20Data%20by%20%5Cu0026copy%3B%20%5Cu003ca%20href%3D%5C%22http%3A//openstreetmap.org%5C%22%5Cu003eOpenStreetMap%5Cu003c/a%5Cu003e%2C%20under%20%5Cu003ca%20href%3D%5C%22http%3A//creativecommons.org/licenses/by-sa/3.0%5C%22%5Cu003eCC%20BY%20SA%5Cu003c/a%5Cu003e.%22%2C%20%22detectRetina%22%3A%20false%2C%20%22maxNativeZoom%22%3A%2018%2C%20%22maxZoom%22%3A%2018%2C%20%22minZoom%22%3A%200%2C%20%22noWrap%22%3A%20false%2C%20%22opacity%22%3A%201%2C%20%22subdomains%22%3A%20%22abc%22%2C%20%22tms%22%3A%20false%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29.addTo%28map_ff64bf3491104709843c1b37b131ffc7%29%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20function%20geo_json_a650f4cdd7ce41389bdfbf69e5963893_onEachFeature%28feature%2C%20layer%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20layer.on%28%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%29%3B%0A%20%20%20%20%20%20%20%20%7D%3B%0A%20%20%20%20%20%20%20%20var%20geo_json_a650f4cdd7ce41389bdfbf69e5963893%20%3D%20L.geoJson%28null%2C%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20onEachFeature%3A%20geo_json_a650f4cdd7ce41389bdfbf69e5963893_onEachFeature%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%7D%29%3B%0A%0A%20%20%20%20%20%20%20%20function%20geo_json_a650f4cdd7ce41389bdfbf69e5963893_add%20%28data%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20geo_json_a650f4cdd7ce41389bdfbf69e5963893%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.addData%28data%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.addTo%28map_ff64bf3491104709843c1b37b131ffc7%29%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20geo_json_a650f4cdd7ce41389bdfbf69e5963893_add%28%7B%22bbox%22%3A%20%5B-85.800735%2C%2011.562684%2C%20-85.627587%2C%2012.021546%5D%2C%20%22features%22%3A%20%5B%7B%22bbox%22%3A%20%5B-85.800735%2C%2011.562684%2C%20-85.627587%2C%2012.021546%5D%2C%20%22geometry%22%3A%20%7B%22coordinates%22%3A%20%5B%5B-85.800735%2C%2011.562684%5D%2C%20%5B-85.799817%2C%2011.565126%5D%2C%20%5B-85.798898%2C%2011.567567%5D%2C%20%5B-85.797979%2C%2011.570008%5D%2C%20%5B-85.79706%2C%2011.572449%5D%2C%20%5B-85.796141%2C%2011.574891%5D%2C%20%5B-85.795222%2C%2011.577332%5D%2C%20%5B-85.794303%2C%2011.579773%5D%2C%20%5B-85.793384%2C%2011.582214%5D%2C%20%5B-85.792465%2C%2011.584656%5D%2C%20%5B-85.791546%2C%2011.587097%5D%2C%20%5B-85.790623%2C%2011.589537%5D%2C%20%5B-85.789703%2C%2011.591978%5D%2C%20%5B-85.788784%2C%2011.594419%5D%2C%20%5B-85.787865%2C%2011.596861%5D%2C%20%5B-85.786945%2C%2011.599302%5D%2C%20%5B-85.786026%2C%2011.601743%5D%2C%20%5B-85.785107%2C%2011.604184%5D%2C%20%5B-85.784187%2C%2011.606625%5D%2C%20%5B-85.783268%2C%2011.609066%5D%2C%20%5B-85.782349%2C%2011.611507%5D%2C%20%5B-85.781429%2C%2011.613949%5D%2C%20%5B-85.78051%2C%2011.61639%5D%2C%20%5B-85.779591%2C%2011.618831%5D%2C%20%5B-85.778671%2C%2011.621272%5D%2C%20%5B-85.777752%2C%2011.623713%5D%2C%20%5B-85.776833%2C%2011.626154%5D%2C%20%5B-85.775913%2C%2011.628595%5D%2C%20%5B-85.774994%2C%2011.631037%5D%2C%20%5B-85.774075%2C%2011.633478%5D%2C%20%5B-85.773155%2C%2011.635919%5D%2C%20%5B-85.772231%2C%2011.638359%5D%2C%20%5B-85.771311%2C%2011.6408%5D%2C%20%5B-85.770392%2C%2011.643241%5D%2C%20%5B-85.769472%2C%2011.645682%5D%2C%20%5B-85.768552%2C%2011.648123%5D%2C%20%5B-85.767632%2C%2011.650564%5D%2C%20%5B-85.766712%2C%2011.653005%5D%2C%20%5B-85.765793%2C%2011.655446%5D%2C%20%5B-85.764873%2C%2011.657887%5D%2C%20%5B-85.763953%2C%2011.660328%5D%2C%20%5B-85.763033%2C%2011.66277%5D%2C%20%5B-85.762113%2C%2011.665211%5D%2C%20%5B-85.761194%2C%2011.667652%5D%2C%20%5B-85.760274%2C%2011.670093%5D%2C%20%5B-85.759354%2C%2011.672534%5D%2C%20%5B-85.758434%2C%2011.674975%5D%2C%20%5B-85.757514%2C%2011.677416%5D%2C%20%5B-85.756595%2C%2011.679857%5D%2C%20%5B-85.755675%2C%2011.682298%5D%2C%20%5B-85.754755%2C%2011.684739%5D%2C%20%5B-85.753832%2C%2011.687179%5D%2C%20%5B-85.752912%2C%2011.689621%5D%2C%20%5B-85.751992%2C%2011.692061%5D%2C%20%5B-85.751072%2C%2011.694503%5D%2C%20%5B-85.750152%2C%2011.696943%5D%2C%20%5B-85.749231%2C%2011.699384%5D%2C%20%5B-85.748311%2C%2011.701825%5D%2C%20%5B-85.747391%2C%2011.704266%5D%2C%20%5B-85.746471%2C%2011.706708%5D%2C%20%5B-85.745551%2C%2011.709148%5D%2C%20%5B-85.744631%2C%2011.71159%5D%2C%20%5B-85.743711%2C%2011.71403%5D%2C%20%5B-85.742791%2C%2011.716472%5D%2C%20%5B-85.741871%2C%2011.718913%5D%2C%20%5B-85.740951%2C%2011.721354%5D%2C%20%5B-85.74003%2C%2011.723795%5D%2C%20%5B-85.73911%2C%2011.726235%5D%2C%20%5B-85.73819%2C%2011.728677%5D%2C%20%5B-85.73727%2C%2011.731117%5D%2C%20%5B-85.73635%2C%2011.733559%5D%2C%20%5B-85.735425%2C%2011.735998%5D%2C%20%5B-85.734505%2C%2011.738439%5D%2C%20%5B-85.733584%2C%2011.74088%5D%2C%20%5B-85.732664%2C%2011.74332%5D%2C%20%5B-85.731743%2C%2011.745761%5D%2C%20%5B-85.730822%2C%2011.748202%5D%2C%20%5B-85.729902%2C%2011.750643%5D%2C%20%5B-85.728981%2C%2011.753084%5D%2C%20%5B-85.728061%2C%2011.755525%5D%2C%20%5B-85.72714%2C%2011.757966%5D%2C%20%5B-85.72622%2C%2011.760406%5D%2C%20%5B-85.725299%2C%2011.762847%5D%2C%20%5B-85.724379%2C%2011.765288%5D%2C%20%5B-85.723458%2C%2011.767729%5D%2C%20%5B-85.722538%2C%2011.77017%5D%2C%20%5B-85.721617%2C%2011.772611%5D%2C%20%5B-85.720696%2C%2011.775052%5D%2C%20%5B-85.719776%2C%2011.777492%5D%2C%20%5B-85.718855%2C%2011.779933%5D%2C%20%5B-85.717935%2C%2011.782374%5D%2C%20%5B-85.71701%2C%2011.784814%5D%2C%20%5B-85.716089%2C%2011.787255%5D%2C%20%5B-85.715168%2C%2011.789696%5D%2C%20%5B-85.714247%2C%2011.792137%5D%2C%20%5B-85.713326%2C%2011.794578%5D%2C%20%5B-85.712405%2C%2011.797018%5D%2C%20%5B-85.711484%2C%2011.799459%5D%2C%20%5B-85.710563%2C%2011.8019%5D%2C%20%5B-85.709642%2C%2011.804341%5D%2C%20%5B-85.708721%2C%2011.806782%5D%2C%20%5B-85.707801%2C%2011.809222%5D%2C%20%5B-85.70688%2C%2011.811663%5D%2C%20%5B-85.705959%2C%2011.814104%5D%2C%20%5B-85.705038%2C%2011.816545%5D%2C%20%5B-85.704117%2C%2011.818986%5D%2C%20%5B-85.703196%2C%2011.821426%5D%2C%20%5B-85.702275%2C%2011.823867%5D%2C%20%5B-85.701354%2C%2011.826308%5D%2C%20%5B-85.700433%2C%2011.828749%5D%2C%20%5B-85.699512%2C%2011.83119%5D%2C%20%5B-85.698587%2C%2011.833629%5D%2C%20%5B-85.697665%2C%2011.836069%5D%2C%20%5B-85.696744%2C%2011.83851%5D%2C%20%5B-85.695823%2C%2011.840951%5D%2C%20%5B-85.694901%2C%2011.843391%5D%2C%20%5B-85.69398%2C%2011.845832%5D%2C%20%5B-85.693059%2C%2011.848273%5D%2C%20%5B-85.692137%2C%2011.850713%5D%2C%20%5B-85.691216%2C%2011.853154%5D%2C%20%5B-85.690295%2C%2011.855595%5D%2C%20%5B-85.689373%2C%2011.858035%5D%2C%20%5B-85.688452%2C%2011.860476%5D%2C%20%5B-85.687531%2C%2011.862917%5D%2C%20%5B-85.686609%2C%2011.865357%5D%2C%20%5B-85.685688%2C%2011.867798%5D%2C%20%5B-85.684767%2C%2011.870239%5D%2C%20%5B-85.683845%2C%2011.872679%5D%2C%20%5B-85.682924%2C%2011.87512%5D%2C%20%5B-85.682003%2C%2011.877561%5D%2C%20%5B-85.681081%2C%2011.880001%5D%2C%20%5B-85.680156%2C%2011.882441%5D%2C%20%5B-85.679234%2C%2011.884881%5D%2C%20%5B-85.678312%2C%2011.887322%5D%2C%20%5B-85.67739%2C%2011.889762%5D%2C%20%5B-85.676469%2C%2011.892203%5D%2C%20%5B-85.675547%2C%2011.894644%5D%2C%20%5B-85.674625%2C%2011.897084%5D%2C%20%5B-85.673703%2C%2011.899525%5D%2C%20%5B-85.672782%2C%2011.901965%5D%2C%20%5B-85.67186%2C%2011.904406%5D%2C%20%5B-85.670938%2C%2011.906846%5D%2C%20%5B-85.670016%2C%2011.909287%5D%2C%20%5B-85.669095%2C%2011.911727%5D%2C%20%5B-85.668173%2C%2011.914168%5D%2C%20%5B-85.667251%2C%2011.916608%5D%2C%20%5B-85.666329%2C%2011.919049%5D%2C%20%5B-85.665408%2C%2011.92149%5D%2C%20%5B-85.664486%2C%2011.92393%5D%2C%20%5B-85.663564%2C%2011.926371%5D%2C%20%5B-85.662642%2C%2011.928811%5D%2C%20%5B-85.661717%2C%2011.931251%5D%2C%20%5B-85.660795%2C%2011.933692%5D%2C%20%5B-85.659873%2C%2011.936132%5D%2C%20%5B-85.658951%2C%2011.938573%5D%2C%20%5B-85.658029%2C%2011.941013%5D%2C%20%5B-85.657106%2C%2011.943454%5D%2C%20%5B-85.656184%2C%2011.945894%5D%2C%20%5B-85.655262%2C%2011.948335%5D%2C%20%5B-85.65434%2C%2011.950775%5D%2C%20%5B-85.653418%2C%2011.953216%5D%2C%20%5B-85.652496%2C%2011.955656%5D%2C%20%5B-85.651574%2C%2011.958097%5D%2C%20%5B-85.650652%2C%2011.960537%5D%2C%20%5B-85.64973%2C%2011.962978%5D%2C%20%5B-85.648808%2C%2011.965418%5D%2C%20%5B-85.647885%2C%2011.967859%5D%2C%20%5B-85.646963%2C%2011.970299%5D%2C%20%5B-85.646041%2C%2011.97274%5D%2C%20%5B-85.645119%2C%2011.97518%5D%2C%20%5B-85.644197%2C%2011.977621%5D%2C%20%5B-85.64327%2C%2011.98006%5D%2C%20%5B-85.642348%2C%2011.9825%5D%2C%20%5B-85.641425%2C%2011.98494%5D%2C%20%5B-85.640503%2C%2011.987381%5D%2C%20%5B-85.63958%2C%2011.989821%5D%2C%20%5B-85.638657%2C%2011.992261%5D%2C%20%5B-85.637735%2C%2011.994702%5D%2C%20%5B-85.636812%2C%2011.997142%5D%2C%20%5B-85.63589%2C%2011.999582%5D%2C%20%5B-85.634967%2C%2012.002023%5D%2C%20%5B-85.634045%2C%2012.004463%5D%2C%20%5B-85.633122%2C%2012.006904%5D%2C%20%5B-85.6322%2C%2012.009344%5D%2C%20%5B-85.631277%2C%2012.011784%5D%2C%20%5B-85.630355%2C%2012.014225%5D%2C%20%5B-85.629432%2C%2012.016665%5D%2C%20%5B-85.628509%2C%2012.019105%5D%2C%20%5B-85.627587%2C%2012.021546%5D%5D%2C%20%22type%22%3A%20%22LineString%22%7D%2C%20%22id%22%3A%20%22189%22%2C%20%22properties%22%3A%20%7B%7D%2C%20%22type%22%3A%20%22Feature%22%7D%5D%2C%20%22type%22%3A%20%22FeatureCollection%22%7D%29%3B%0A%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20geo_json_a650f4cdd7ce41389bdfbf69e5963893.bindTooltip%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%60%3Cdiv%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Paso%20satelital%20Topex/Jason%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/div%3E%60%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%22sticky%22%3A%20true%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29%3B%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20map_ff64bf3491104709843c1b37b131ffc7.fitBounds%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%5B%5B11.562684%2C%20-85.800735%5D%2C%20%5B12.021546%2C%20-85.627587%5D%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29%3B%0A%20%20%20%20%20%20%20%20%0A%3C/script%3E onload="this.contentDocument.open();this.contentDocument.write(    decodeURIComponent(this.getAttribute('data-html')));this.contentDocument.close();" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div></div></div>
 </div>
-</div>
-</div>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -899,35 +1060,35 @@ dtype: int64
 
               </div>
               
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Jupyter Notebooks</p>
+        </div>
+    </a>
+</div>
+            
         </div>
     </div>
+    <footer class="footer">
+  <p>
     
+      By Emilio Mayorga<br/>
     
-    <div class='prev-next-bottom'>
-        
-    <a class='left-prev' id="prev-link" href="index.html" title="previous page">Jupyter Notebooks</a>
-
-    </div>
-    <footer class="footer mt-5 mt-md-0">
-    <div class="container">
-      <p>
-        
-          By Emilio Mayorga<br/>
-        
-            &copy; Copyright 2021.<br/>
-      </p>
-    </div>
-  </footer>
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
 </main>
 
 
       </div>
     </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-    
-  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
-
-
-    
   </body>
 </html>
