@@ -3,21 +3,18 @@ channels:
   - conda-forge
   - default
 dependencies:
-  - python=3.8
-  - jedi<0.18.0 # https://github.com/ipython/ipython/issues/12740
+  - python=3.9
   - ipykernel
-  - sphinx
+  - jupyter-book
+  - ghp-import
+  - pip
+  # - sphinx
   - pandas
   - geopandas
-  - descartes
   - mapclassify
   - xarray
-  - matplotlib
+  - matplotlib-base
   - seaborn
   - folium
   - cartopy
   - contextily
-  - pip
-  - pip:
-    - jupyter-book
-    - ghp-import

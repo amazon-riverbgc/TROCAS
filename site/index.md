@@ -4,7 +4,7 @@
 (Net Ecosystem Exchange of the Lower Amazon River – from Land to the Ocean and Atmosphere)
 
 
-:::{figure,myclass} fig1
+:::{figure-md} fig1
 <img src="img/map.png" alt="map" class="bg-primary mb-1">
 
 Study site

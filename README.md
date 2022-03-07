@@ -11,7 +11,7 @@ To develop on and build the site:
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
 - (Recommended) Remove the existing `site/_build/` directory
-- Run `jupyter-book build site/`
+- Run `jupyter-book build site`
 
 A fully-rendered HTML version of the book will be built in `site/_build/html/`.
 

@@ -1,8 +1,7 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-- file: index
-
-- part: Project
+format: jb-book
+root: index
+parts:
+- caption: Project
   chapters:
   - file: docs/project
     title: Project Description
@@ -10,14 +9,13 @@
     title: Publications
   - file: docs/team_access
     title: Team Access
-
-- part: Data & Computation
+- caption: Data & Computation
   chapters:
   - file: docs/data
     title: Data
   - file: docs/databrowser
     title: TROCAS Data Browser
-  - file: notebooks/index
-    title: Jupyter Notebooks
-    sections:
-    - file: notebooks/LagoNicaraguaNiveles_altimetro
+  - file: docs/dataprocessing
+    title: Data Processing
+    # sections:
+    # - file: notebooks/LagoNicaraguaNiveles_altimetro
