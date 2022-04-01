@@ -53,7 +53,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="TROCAS Data Browser" href="databrowser.html" />
-    <link rel="prev" title="TROCAS Team Access" href="team_access.html" />
+    <link rel="prev" title="TROCAS Information System Overview" href="data_overview.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -114,23 +114,23 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Data &amp; Computation
+  Data
  </span>
 </p>
 <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="data_overview.html">
+   Overview
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Data
+   Data &amp; Processing
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="databrowser.html">
-   TROCAS Data Browser
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../notebooks/index.html">
-   Jupyter Notebooks
+   Data Browser
   </a>
  </li>
 </ul>
@@ -219,6 +219,11 @@ const thebe_selector_output = ".output, .cell_output"
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#from-sitr-doc-feb-22">
+   From SITr doc Feb ‘22.
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#github">
    GitHub
   </a>
@@ -243,6 +248,11 @@ const thebe_selector_output = ".output, .cell_output"
                         </div>
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#from-sitr-doc-feb-22">
+   From SITr doc Feb ‘22.
+  </a>
+ </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#github">
    GitHub
@@ -278,6 +288,23 @@ Instead, this section should address issues of data file/object storage, managem
 </li>
 <li><p>Mention Team Access page for access to private-access data; link to it</p></li>
 </ul>
+<section id="from-sitr-doc-feb-22">
+<h2>From SITr doc Feb ‘22.<a class="headerlink" href="#from-sitr-doc-feb-22" title="Permalink to this headline">¶</a></h2>
+<p>Underway data</p>
+<p>The continuous, underway measurements of CO2, CH4 together with temperature, dissolved oxygen and O2 and utilizing the Licor, Exosonde, Picarro and GPS sensors will allow high resolution insight into how the dynamics of the biogeochemistry of a parcel of water evolves as that parcel advects downstream.  Composition varies according to distance traveled, lateral exchanges, biological processes, turbulence, and tides.</p>
+<p>To organize and process these complex data sets capable of addressing these issues, a series of data tools were developed. While these tools are currently focused on the underway data, the intent is that they are adapted to the other data streams.</p>
+<p>A major data challenge is to be able to ‘see” all of the complicated data we have, including of getting coordinates, values etc synchronized and plotted.
+To that end, Emilio has designed and implemented a sweet data browser, first for the underway data. The structure of the browser is to maximize flexibility. <a class="reference external" href="https://trocasdata-1.herokuapp.com/trocas_pannelapp_1">https://trocasdata-1.herokuapp.com/trocas_pannelapp_1</a></p>
+<p>About Data Browser</p>
+<p>The main component of the application is in the Data Browser tab.</p>
+<p>Data from the 8 campaigns have been processed, from April 2014 through November 2019.</p>
+<p>The underway files in the data folder Google Drive cloud storage Underway and were processed into workable datastreams.</p>
+<p>Jupyter notebooks were developed in Python for processing the raw data from each sensor into standardized tidy data aggregating all transects and stored in Parquet files, an open, scalable, cloud-optimized format. The Jupyter notebooks capture a reproducible, transparent workflow that can be updated and rerun as needed to reprocess all the raw data as issues are addressed, enhancements are developed, and missing files are integrated.</p>
+<p>Raw sensor output files (including GPS) were compiled and organized. These data were averaged into 1-minute bins and joined across sensors on the temporal bins to create a merged Parquet file. The binned data from each sensor are then joined on matching time-interval bins. Sensor data that don’t have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.  These per-sensor tidy data frames are available to the team for analysis and further quality control, and subsequently for integrated analysis and exploration.</p>
+<p>Processes for clearly separating underway data along spatial trajectories from fixed-site diel time series are also being developed. Source sensor data files in parent folders indicating their sampling “type” as <em>underway</em> (moving) or <em>diel</em> (stationary) are flagged as such in data processing workflow. All others are labelled with a default mixed (unknown or a combination of the two) flag. The “stations - diel files” points (small blue squares) represent aggregations of diel-flagged files, identified for further investigation and identification. The notebooks and supporting information implementing these workflows will be shared openly via GitHub once all high-priority issues have been addressed.</p>
+<p>Currently nearly 1,200 individual sensor output files have been processed, encompassing nearly 100 million individual observations with accompanying automatically generated metadata and data inventories. In order to enable the team to readily explore these large datasets, the merged, 1-min-binned analysis-ready data are pushed to the cloud-based Heroku platform, in the Integrated folder. The actual Data Browser is a Python data exploration dashboard has been developed using the open-source HoloViz/Panel Python packages. This web-based dashboard is also pushed to the Heroku cloud platform for team access.</p>
+<p>The functionality of this dashboard is being regularly refined and expanded. In addition, in the near future both processed and merged Parquet files will be deployed to object storage on the Amazon AWS S3 cloud for more flexible access via cloud-based computation in Python and R Jupyter notebooks leveraging the cloud-based Pangeo (<a class="reference external" href="https://pangeo.io">https://pangeo.io</a>) geoscience Big Data platform. Other data collected by the team will be addressed in upcoming phases, including ADCP sensor data, biogeochemical analyses from samples, incubation experiments and ‘omics data, lowering barriers for integrated analysis of environmental and ‘omics data. This capability will build on the team’s experience with cyberinfrastructure interfacing environmental and ‘omics data, particularly via persistent and globally unique International GeoSample Numbers (IGSN) and Environmental Package metadata that is part of the Genomic Standards Consortium Minimum Information about any (x) Sequence (MixS) standard. Such integration and production of analysis-ready data will enable future machine-learning applications.</p>
+</section>
 <section id="github">
 <h2>GitHub<a class="headerlink" href="#github" title="Permalink to this headline">¶</a></h2>
 <p>GitHub organization: <a class="reference external" href="https://github.com/amazon-riverbgc/">https://github.com/amazon-riverbgc/</a></p>
@@ -313,11 +340,11 @@ Instead, this section should address issues of data file/object storage, managem
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="team_access.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="data_overview.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">TROCAS Team Access</p>
+            <p class="prev-next-title">TROCAS Information System Overview</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="databrowser.html" title="next page">

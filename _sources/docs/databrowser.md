@@ -12,7 +12,7 @@ It may take 10 seconds or more for the application to start up. If you encounter
 
 ## Data
 
-Sensor types currently processed and included in the Data Browser are EXO Sonde, Licor CO2, Picarro and GPS. It does not yet include data from ADCP sensors, experiments (such as respiration incubations) or laboratory analyses of samples. Data presented are based on raw sensor output files processed and averaged into 1-minute bins. The binned data from each sensor are then joined on matching time-interval bins. Sensor data that don't have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.
+Sensor types currently processed and included in the Data Browser are [EXO Sonde](https://www.ysi.com/exo), [Licor CO2](https://www.licor.com/env/products/gas_analysis/), [Picarro](https://www.picarro.com/products/g2201i_isotopic_analyzer) and GPS. The data browser does not yet include data from ADCP sensors, experiments (such as respiration incubations) or laboratory analyses of samples. Data presented are based on raw sensor output files processed and averaged into 1-minute bins. Binned data from each sensor are then joined on matching time-interval bins. Sensor data that don't have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.
 
 ## Technology
 
