@@ -14,8 +14,6 @@ parts:
   - file: docs/data
     title: Data
   - file: docs/databrowser
-    title: TROCAS Data Browser
+    title: Data Browser
   - file: docs/dataprocessing
     title: Data Processing
-    # sections:
-    # - file: notebooks/LagoNicaraguaNiveles_altimetro
