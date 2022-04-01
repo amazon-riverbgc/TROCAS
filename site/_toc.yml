@@ -9,11 +9,11 @@ parts:
     title: Publications
   - file: docs/team_access
     title: Team Access
-- caption: Data & Computation
+- caption: Data
   chapters:
+  - file: docs/data_overview
+    title: Overview
   - file: docs/data
-    title: Data
+    title: Data & Processing
   - file: docs/databrowser
     title: Data Browser
-  - file: docs/dataprocessing
-    title: Data Processing

@@ -16,19 +16,6 @@ Instead, this section should address issues of data file/object storage, managem
 
 ## From SITr doc Feb '22.
 
-TROCAS Information System Overview
-
-The overall TROCAS dataset is complex, from detailed chemical analysis to continuous underway recordings to remote sensing data to hydrology.  As members of the Brazilian, U.S., and international science community, we are fully committed to ready dissemination of data from this project, 
-and from our earlier projects.
-
-(Our data management plan will be in complete compliance with both the spirit and statement of FAPESP and NSF policies on the dissemination and sharing of research results )
-
-Our team has undertaken an initiative to apply data management and processing best practices for the data collected in the lower Amazon River. The goals of this effort are to enable unfettered integrative analyses across data types and field campaigns; deploy automated, reproducible processing workflows; and publish the raw and analysis-ready data and processing scripts openly for use by the broader community, following FAIR principles. 
-
-Data collected by the team will be archived and distributed through open repositories upon publication. 
-
--------------
-
 Underway data
 
 The continuous, underway measurements of CO2, CH4 together with temperature, dissolved oxygen and O2 and utilizing the Licor, Exosonde, Picarro and GPS sensors will allow high resolution insight into how the dynamics of the biogeochemistry of a parcel of water evolves as that parcel advects downstream.  Composition varies according to distance traveled, lateral exchanges, biological processes, turbulence, and tides. 
