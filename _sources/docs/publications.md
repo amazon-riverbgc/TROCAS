@@ -2,13 +2,21 @@
 
 ## In Review
 
-- Bertassoli , D.J., H.O. Sawakuchi, K.R. de Araújo, M.G.P. de Camargo, V.A.T. Alem, T.S. Pereira, A.V. Krusche, D. Bastviken, J.E. Richey, and A.O. Sawakuchi (in review).  How green can Amazon hydropower be? Net carbon emission from the largest 4 hydropower plant in Amazonia - Net emissions from the Belo Monte reservoirs. Science Advances.
-- Sawakuchi, H.O., Bastviken, D., Enrich-Prast, A., Ward, N.D., Richey, J.E. (in review). Low methane emissions from the main channel of a large Amazonian run-of-the-river reservoir attributed to high methane oxidation. Frontiers in Earth Science: Biogeoscience.
+- Mu, L., J.E. Richey, N.D. Ward, A.V. Krusche, A. Montebelo, C.E. Rezende, P.M. Medeiros, B.P. Page, and P.L. Yager. (in review). Carbonate and nutrient contributions from the Amazon River to the western tropical North Atlantic Ocean. Global Biogeochemical Cycles. 
+- Neu, V., M.G.S. Araújo, V.M. Guedes, N.D. Ward, M.M. Ribeiro, J.E. Richey, and A.V. Krusche. (in review). Composition and Flow of Dissolved and Particulate Carbon and Nitrogen in the Lower Tocantins River. J. Geophysical Res: Biogeosciences.
+
+## 2022
+
+- Richey, J.E., R.G.M. Spencer, T. W. Drake, and N.D. Ward. (2022).  Fluvial Carbon Dynamics across the Land to Ocean Continuum of Great Tropical Rivers: the Amazon and Congo. In Congo Basin Hydrology, Climate, and Biogeochemistry: A Foundation for the Future, Geophysical Monograph 269, First Edition, English Version. Edited by R.M. Tshimanga, G.D. Moukandi N’kaya, and D. Alsdorf. 2022 American Geophysical Union.  John Wiley & Sons, Inc. [doi:10.1002/9781119657002.ch20](https://doi.org/10.1002/9781119657002.ch20)
 
 ## 2021
 
-- Richey, J.E., R.G.M. Spencer, T. W. Drake, and N.D. Ward. (in press). Fluvial Carbon Dynamics across the Land to Ocean Continuum of Great Tropical Rivers: the Amazon and Congo. Congo AGU Geophysical Monograph, Earth and Space Science Open Archive. In Congo Basin Hydrology, Climate, and Biogeochemistry: A Foundation for the Future. Edited by Alsdorf, D.E., Tshimanga, R., Moukandi, G.. [doi:10.1002/essoar.10505912.1](https://doi.org/10.1002/essoar.10505912.1)
-- Valerio, A.M.; Kampel, M.; Ward, N.D.; Sawakuchi, H.O.; Cunha, A.C.; and Richey, J.E. (2021). Assessment of partial pressure of carbon dioxide in the Amazon River plume using in situ and remote sensing data. Cont. Shelf. Res. 215 104348, [doi:10.1016/j.csr.2021.104348](https://doi.org/10.1016/j.csr.2021.104348)
+- Bertassoli, D.J. Jr., H. O. Sawakuchi, K. R. de Araújo, M. G. P. de Camargo, V. A. T. Alem, T. S. Pereira, A. V. Krusche, D. Bastviken, J. E. Richey, and A. O. Sawakuchi (2021). How green can Amazon hydropower be? Net carbon emission from the largest hydropower plant in Amazonia. Sci. Adv. 7, 26, [doi:10.1126/sciadv.abe1470](https://doi.org/10.1126/sciadv.abe1470)
+- Cunha, A.C.,  C.H.M. de Abreu, J. L. P. Crizanto, H.F.A. Cunha, A.U. Brito, and N.N. Pereira. (2021). Modeling pollutant dispersion scenarios in high vessel-traffic areas of the Lower Amazon River. Marine Pollution Bulletin 168, 112404. [doi:10.1016/j.marpolbul.2021.112404](https://doi.org/10.1016/j.marpolbul.2021.112404)
+- Less, D.F.S., N.D. Ward, J.E. Richey, and A.C. da Cunha. (2021). Seasonal and Daily Variation of Hydrodynamic Conditions in the Amazon River Mouth: influence of discharge and tide on flow velocity.  Journal of Coastal Research, 37(6):1181-1192, [doi:10.2112/JCOASTRES-D-21-00010.1](https://doi.org/10.2112/JCOASTRES-D-21-00010.1)
+- Sawakuchi, H.O, D. Bastviken, A. Enrich-Prast, N.D. Ward, P.B .Camargo, and J.E Richey. (2021). Low diffusive methane emissions from the main channel of a large Amazonian run-of-the-river reservoir attributed to high methane oxidation. Front. Environ. Sci., 08 April 2021 [doi:10.3389/fenvs.2021.655455](https://doi.org/10.3389/fenvs.2021.655455)
+- Valerio, A.M.; Kampel, M.; Ward, N.D.; Sawakuchi, H.O.; Cunha, A.C.; and Richey, J.E. (2021). Assessment of partial pressure of carbon dioxide in the Amazon River plume using in situ and remote sensing data. Cont. Shelf. Res. 215, 104348, [doi:10.1016/j.csr.2021.104348](https://doi.org/10.1016/j.csr.2021.104348)
+- Valerio, A.d.M., M.  Kampel, V. Vantrepotte, N.D. Ward, and J.E. Richey, (2021).  Classification of Lower Amazon Waters Based on In Situ Data and Sentinel-3 Ocean and Land Color Instrument Imagery. Remote Sens. 13, 3057. [doi:10.3390/rs13163057](https://doi.org/10.3390/rs13163057)
 
 ## 2013 - 2020
 
