@@ -4,8 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TROCAS Data Browser &#8212; TROCAS</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
@@ -52,7 +51,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="canonical" href="https://amazon-riverbgc.github.io/TROCAS/docs/databrowser.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="TROCAS Data" href="data.html" />
+    <link rel="prev" title="TROCAS Data and Data Processing" href="data.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -266,21 +265,21 @@ const thebe_selector_output = ".output, .cell_output"
             
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="trocas-data-browser">
+  <div class="tex2jax_ignore mathjax_ignore section" id="trocas-data-browser">
 <h1>TROCAS Data Browser<a class="headerlink" href="#trocas-data-browser" title="Permalink to this headline">¶</a></h1>
 <p>The TROCAS Data Browser provides convenient overviews and exploration of TROCAS data. Currently it aggregates sensor data from the TROCAS project across all TROCAS transects conducted so far and collected from a boat in continuous “underway” mode while transiting or remaining stationary at a location.</p>
 <p><a class="sphinx-bs btn text-wrap btn-light btn-lg reference external" href="https://trocasdata-1.herokuapp.com" title="https://trocasdata-1.herokuapp.com"><span>Go to TROCAS Data Browser</span></a></p>
 <p>It may take 10 seconds or more for the application to start up. If you encounter an “Appplication error” page, please hit the browser reload button (typically <code class="docutils literal notranslate"><span class="pre">Ctrl-r</span></code>) to try again. For help using the Data Browser, see its “About Data Browser” tab. The main component of the application is in the “Data Browser” tab. The “Inventory” tab presents an inventory table for each TROCAS transect and a list of currently known data gaps or issues that need to be addressed.</p>
-<section id="data">
+<div class="section" id="data">
 <h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
 <p>Sensor types currently processed and included in the Data Browser are <a class="reference external" href="https://www.ysi.com/exo">EXO Sonde</a>, <a class="reference external" href="https://www.licor.com/env/products/gas_analysis/">Licor CO2</a>, <a class="reference external" href="https://www.picarro.com/products/g2201i_isotopic_analyzer">Picarro</a> and GPS. The data browser does not yet include data from ADCP sensors, experiments (such as respiration incubations) or laboratory analyses of samples. Data presented are based on raw sensor output files processed and averaged into 1-minute bins. Binned data from each sensor are then joined on matching time-interval bins. Sensor data that don’t have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.</p>
-</section>
-<section id="technology">
+</div>
+<div class="section" id="technology">
 <h2>Technology<a class="headerlink" href="#technology" title="Permalink to this headline">¶</a></h2>
 <p>The TROCAS Data Browser is an online “dashboard” application (app) developed in Python using the <a class="reference external" href="https://holoviz.org/">HoloViz</a> visualization software ecosystem, particularly the <a class="reference external" href="https://panel.holoviz.org/">Panel</a> dashboarding library. The dashboard code is maintained in a Jupyter notebook (<a class="reference external" href="https://github.com/amazon-riverbgc/trocas-herokuapp1/blob/master/trocas_pannelapp_1.ipynb">trocas_pannelapp_1.ipynb</a>) and associated Python modules. All the code is openly available on the GitHub repository for the Data Browser: <a class="reference external" href="https://github.com/amazon-riverbgc/trocas-herokuapp1">https://github.com/amazon-riverbgc/trocas-herokuapp1</a></p>
 <p>The app is deployed online through the <a class="reference external" href="https://www.heroku.com">Heroku</a> cloud platform. However, it can also be run locally in your own computer or computational resource; please see the information found in the GitHub repository and in the Jupyter notebook, and post questions there as <a class="reference external" href="https://github.com/amazon-riverbgc/trocas-herokuapp1/issues">GitHub issues</a>.</p>
-</section>
-</section>
+</div>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -311,7 +310,7 @@ const thebe_selector_output = ".output, .cell_output"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">TROCAS Data</p>
+            <p class="prev-next-title">TROCAS Data and Data Processing</p>
         </div>
     </a>
 </div>
