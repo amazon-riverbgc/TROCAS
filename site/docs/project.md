@@ -6,13 +6,11 @@ Aside from these initial surveys, no systematic measurements have ever been made
 1. What are the geographic and temporal distributions and magnitudes of riverine CO<sub>2</sub> production (system-scale)
 2. What are the dynamics that drive and control outgassing (microbial-scale)? 
 
-To evaluate these questions, tools from satellite remote sensing to proteomics are being deployed.
-
-The overall TROCAS dataset is complex, from detailed chemical analysis to continuous underway recordings to remote sensing data to hydrology. Information needs to flow between members and ultimately to the outside world. The window to TROCAS is provided via an evolving project website. The intent of the website is to organize the multiple levels of data and provide data processing tools, as well as a broader vision of the overall project and its team members. 
+To evaluate these questions, tools from detailed chemical analysis to proteomics, continuous underway recordings, remote sensing data and hydrology. The goals of this website are to describe the datasets being generated; provide access to scientific results, data browsing and data processing tools; and present a broader vision of the overall project and its team members. 
 
 ## Project Team
 
-The Centro de Energia Nuclear na Agricultura (CENA, Piracicaba) and the University of Washington (UW, Seattle) are the lead institutions. Partners in the Amazon include the Universidade Federal do Amapá (UNIFAP, Macapá), the Universidade do Estado do Amapá (UEAP, Macapá), the Universidade Federal do Oeste do Pará (UFOPA, Santarém), and the Universidade Federal Rural da Amazônia (UFRA). Outside of the Amazon, the Instituto Nacional de Pesquisas Espaciais (INPE, Sao José dos Campos) and the Universidade Federal do Rio de Janeiro (COPPE/UFRJ, Rio).
+TROCAS is a collaborative venture between the University of Washington (UW, Seattle, [Jeffrey Richey](http://www.riversystems.washington.edu/)), [Centro de Energia Nuclear na Agricultura](http://www.cena.usp.br/) (CENA, Piracicaba, Maria Victoria Ballester), [Instituto Nacional de Pesquisas Espaciais](https://www.gov.br/inpe/pt-br) (INPE, São Jose dos Campos, Aline Valerio, Milton Kampel), [Universidade Federal Rural da Amazonia](https://novo.ufra.edu.br/) (UFRA, Belém, Vania Neu), [Universidade Federal do Amapá](http://www.unifap.br/) (UNIFAP, Macapá, Alan Cunha), and Universidade Federal do Rio de Janeiro (UFRJ, Rio de Janeiro, [Paulo Rosman, Monica Buckmann](http://www.sisbahia.coppe.ufrj.br/)).
 
 ## Funding
 

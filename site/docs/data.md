@@ -27,13 +27,17 @@ Data from the 8 campaigns have been processed, from April 2014 through November 
   - Scripts to create merged 1-minute binned files
   - Mention the TROCAS data browser
 
+Compilation and processing of raw sensor data files
+
+Add subheadings in this section, if I'm going to keep all this text
+
 The underway files in the data folder Google Drive cloud storage Underway and were processed into workable datastreams. 
 
 Jupyter notebooks were developed in Python for processing the raw data from each sensor into standardized tidy data aggregating all transects and stored in Parquet files, an open, scalable, cloud-optimized format. The Jupyter notebooks capture a reproducible, transparent workflow that can be updated and rerun as needed to reprocess all the raw data as issues are addressed, enhancements are developed, and missing files are integrated.
 
 Raw sensor output files (including GPS) were compiled and organized. These data were averaged into 1-minute bins and joined across sensors on the temporal bins to create a merged Parquet file. The binned data from each sensor are then joined on matching time-interval bins. Sensor data that don’t have a corresponding GPS 1-minute bin are not presented on this application; such data will require further investigation to attach geospatial coordinates.  These per-sensor tidy data frames are available to the team for analysis and further quality control, and subsequently for integrated analysis and exploration.
 
-Processes for clearly separating underway data along spatial trajectories from fixed-site diel time series are also being developed. Source sensor data files in parent folders indicating their sampling “type” as *underway* (moving) or *diel* (stationary) are flagged as such in data processing workflow. All others are labelled with a default mixed (unknown or a combination of the two) flag. The “stations - diel files” points (small blue squares) represent aggregations of diel-flagged files, identified for further investigation and identification. The notebooks and supporting information implementing these workflows will be shared openly via GitHub once all high-priority issues have been addressed.
+Processes for clearly separating underway data along spatial trajectories from fixed-site diel time series are also being developed. Source sensor data files in parent folders indicating their sampling “type” as *underway* (moving) or *diel* (stationary) are flagged as such in data processing workflow. All others are labelled with a default mixed (unknown or a combination of the two) flag. The “stations - diel files” points  represent aggregations of diel-flagged files, identified for further investigation and identification.
 
 Currently nearly 1,200 individual sensor output files have been processed, encompassing nearly 100 million individual observations with accompanying automatically generated metadata and data inventories. In order to enable the team to readily explore these large datasets, the merged, 1-min-binned analysis-ready data are pushed to the cloud-based Heroku platform, in the Integrated folder. The actual Data Browser is a Python data exploration dashboard has been developed using the open-source [HoloViz](https://holoviz.org/)/Panel Python packages. This web-based dashboard is also pushed to the Heroku cloud platform for team access.  
 ### Data Browser
@@ -49,7 +53,7 @@ The TROCAS Data Browser provides convenient overviews and exploration of TROCAS 
 
 ## Our open resources on GitHub
 
-We use the [GitHub](https://github.com/) online platform for collaborative software and document development in order to enable open team collaborations on data procesing software and workflows and share much of these resources broadly. Our GitHub resources are found at [https://github.com/amazon-riverbgc/](https://github.com/amazon-riverbgc/). Currently we host the following as public "repositories":
+We use the [GitHub](https://github.com/) online platform for collaborative software and document development in order to enable open team collaborations on data procesing software and workflows and share much of these resources broadly. Our GitHub resources are found at [https://github.com/amazon-riverbgc/](https://github.com/amazon-riverbgc/). Currently we host the following as public [repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories):
 - TROCAS web site content. https://github.com/amazon-riverbgc/TROCAS/
 - TROCAS Data Browser code. https://github.com/amazon-riverbgc/trocas-herokuapp1
 
