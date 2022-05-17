@@ -9,6 +9,8 @@ parts:
     title: Publications
   - file: docs/team_access
     title: Team Access
+  - file: docs/historical
+    title: Previous Campaigns
 - caption: Data
   chapters:
   - file: docs/data_overview
