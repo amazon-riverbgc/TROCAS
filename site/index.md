@@ -25,41 +25,32 @@ We are asking fundamental questions about the lower Amazon River and the inner p
 
 ## Previous campaigns in the Amazon
 
-:::{panels}
-:column: col-3
+:::{panels} 
+:container: text-center
+:column: col-sm-3 px-2 py-2
+:card:
 
-```{image} img/historical-AlphaHelixTefe-500px.jpg
-:alt: Alpha Helix at Tefe
-:class: mb-1
-:align: center
-```
-+++
-[Alpha Helix](docs/historical)
+[**Alpha Helix**](docs/historical)
+^^^
+[![Alpha Helix at Tefe](img/historical-AlphaHelixTefe-500px.jpg)](docs/historical)
 ---
-
-```{image} img/historical-Amanai-500px.jpg
-:alt: Amanai
-:class: mb-1
-:align: center
-```
-+++
-[CAMREX](docs/historical)
+[**CAMREX**](docs/historical)
+^^^
+[![Amanai](img/historical-Amanai-500px.jpg)](docs/historical)
 ---
-
-```{image} img/historical-Palmas-500px.jpg
-:alt: Palmas
-:class: mb-1
-:align: center
-```
-+++
-[ABLE - LBA](docs/historical)
+[**ABLE - LBA**](docs/historical)
+^^^
+[![Palmas](img/historical-Palmas-500px.jpg)](docs/historical)
 ---
+[**ROCA**](docs/historical)
+^^^
+[![Obidos](img/historical-obidos-500px.jpg)](docs/historical)
+:::
 
+<!-- [**ROCA**](docs/historical)
+^^^
 ```{image} img/historical-obidos-500px.jpg
 :alt: Obidos
 :class: mb-1
 :align: center
-```
-+++
-[ROCA](docs/historical)
-:::
+``` -->
