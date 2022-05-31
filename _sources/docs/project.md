@@ -1,4 +1,6 @@
-# TROCAS Project Description
+# TROCAS Project
+
+## Project description
 
 The [main stem of the Amazon River](http://amazonwaters.org/basins/) is a large supplier of carbon dioxide (CO<sub>2</sub>) to the atmosphere, most of which is sourced as organic carbon from the surrounding landscape and subsequently remineralized in river. The component of the river system that is least well understood is the tidal reach, which consists of two main channels each three times the girth of the Mississippi River at its widest point. While tidal forcing does not result in salt intrusion, riverine flow in this reach can be reversed, and complex interactions occur between the river channels and the fringe areas, making the study of this component of the world’s largest river a significant logistical challenge. In recognition of earlier work demonstrating that pCO<sub>2</sub> and outgassing remains very elevated in the lower Amazon River, we previously evaluated the respective components of [Net Ecosystem Exchange (NEE)](https://sciencing.com/definition-net-ecosystem-exchange-6802053.html) from [Óbidos](https://www.google.com/maps/@-1.8583906,-55.5930507,9z) downriver to [Macapá](https://www.google.com/maps/@0.0387726,-50.8306162,9z) over four cruises, focusing on how metabolic processes apparently drive the elevated pCO<sub>2</sub> and subsequent outgassing, relative to advective fluxes. Two pilot cruises were made from Macapá down to the actual river mouth, evaluating the seaward propagation of the pCO<sub>2</sub> signal. Preliminary measurements that fluxes of CO<sub>2</sub> to the atmosphere remain high out to the freshwater terminus located ~60km offshore from the river mouth.
 
@@ -7,10 +9,6 @@ Aside from these initial surveys, no systematic measurements have ever been made
 2. What are the dynamics that drive and control outgassing (microbial-scale)? 
 
 To evaluate these questions, tools from detailed chemical analysis to proteomics, continuous underway recordings, remote sensing data and hydrology. The goals of this website are to describe the datasets being generated; provide access to scientific results, data browsing and data processing tools; and present a broader vision of the overall project and its team members. 
-
-## Project Team
-
-TROCAS is a collaborative venture between the University of Washington (UW, Seattle, [Jeffrey Richey](http://www.riversystems.washington.edu/)), [Centro de Energia Nuclear na Agricultura](http://www.cena.usp.br/) (CENA, Piracicaba, Maria Victoria Ballester), [Instituto Nacional de Pesquisas Espaciais](https://www.gov.br/inpe/pt-br) (INPE, São Jose dos Campos, Aline Valerio, Milton Kampel), [Universidade Federal Rural da Amazonia](https://novo.ufra.edu.br/) (UFRA, Belém, Vania Neu), [Universidade Federal do Amapá](http://www.unifap.br/) (UNIFAP, Macapá, Alan Cunha), and Universidade Federal do Rio de Janeiro (UFRJ, Rio de Janeiro, [Paulo Rosman, Monica Buckmann](http://www.sisbahia.coppe.ufrj.br/)).
 
 ## Funding
 
