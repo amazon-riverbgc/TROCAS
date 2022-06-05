@@ -8,6 +8,11 @@ The TROCAS Data Browser provides convenient overviews and exploration of TROCAS 
 :classes: btn-light btn-lg
 ```
 
+:::{image} ../img/databrowser/TROCASDataBrowser-screenshot1.png
+:alt: Data Browser
+:align: right
+:::
+
 It may take 10 seconds or more for the application to start up. If you encounter an "Appplication error" page, please hit the browser reload button (typically `Ctrl-r`) to try again. For help using the Data Browser, see its "About Data Browser" tab. The main component of the application is in the "Data Browser" tab. The "Inventory" tab presents an inventory table for each TROCAS transect and a list of currently known data gaps or issues that need to be addressed.
 
 ## Data

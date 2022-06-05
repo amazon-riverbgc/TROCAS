@@ -5,8 +5,12 @@ parts:
   chapters:
   - file: docs/project
     title: Project Description
+  - file: docs/team
+    title: Team
   - file: docs/publications
     title: Publications
+  - file: docs/historical
+    title: Previous Campaigns
   - file: docs/team_access
     title: Team Access
 - caption: Data

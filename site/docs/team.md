@@ -1,0 +1,3 @@
+# Project Team
+
+TROCAS is a collaborative venture between the University of Washington (UW, Seattle, [Jeffrey Richey](http://www.riversystems.washington.edu/)), [Centro de Energia Nuclear na Agricultura](http://www.cena.usp.br/) (CENA, Piracicaba, Maria Victoria Ballester), [Instituto Nacional de Pesquisas Espaciais](https://www.gov.br/inpe/pt-br) (INPE, São Jose dos Campos, Aline Valerio, Milton Kampel), [Universidade Federal Rural da Amazonia](https://novo.ufra.edu.br/) (UFRA, Belém, Vania Neu), [Universidade Federal do Amapá](http://www.unifap.br/) (UNIFAP, Macapá, Alan Cunha), and Universidade Federal do Rio de Janeiro (UFRJ, Rio de Janeiro, [Paulo Rosman, Monica Buckmann](http://www.sisbahia.coppe.ufrj.br/)).
