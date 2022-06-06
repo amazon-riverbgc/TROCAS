@@ -6,9 +6,10 @@ dependencies:
   - python=3.9
   - ipykernel
   - jupyter-book
+  # sphinx-design may not be needed after updating to jb 0.13
+  - sphinx-design
   - ghp-import
   - pip
-  # - sphinx
   - pandas
   - geopandas
   - mapclassify

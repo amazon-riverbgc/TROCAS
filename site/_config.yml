@@ -37,3 +37,7 @@ repository:
   url: https://github.com/amazon-riverbgc/TROCAS
   branch: main
   path_to_book: site
+
+sphinx:
+  # sphinx_design may not be needed after updating to jb 0.13
+  extra_extensions: ['sphinx_design']
