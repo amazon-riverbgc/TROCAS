@@ -18,7 +18,7 @@ Team access provides secure entry to project data, files, etc. Team members have
 The `TROCASdata` drive contains the following top-level folders:
 - [ADCP](#adcp)
 - [Amazon Historico](#amazon-historico)
-- [GPS_Tracks_Waypoints](#gps_tracks_waypoints)
+- [GPS_Tracks_Waypoints](#gps-tracks-waypoints)
 - [Hidrologia](#hidrologia)
 - [Modeling](#modeling)
 - [Quimica](#quimica)
