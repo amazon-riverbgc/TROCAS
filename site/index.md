@@ -14,9 +14,9 @@ align: right
 Study area
 ::: -->
 
-:::{image} img/map.png
+:::{image} img/map_small.png
 :alt: Study area
-:width: 400px
+:width: 360px
 :align: right
 :::
 
@@ -25,32 +25,38 @@ We are asking fundamental questions about the lower Amazon River and the inner p
 
 ## Previous campaigns in the Amazon
 
-:::{panels} 
-:container: text-center
-:column: col-sm-3 px-2 py-2
-:card:
+::::{grid} 1 2 3 4
 
-[**Alpha Helix**](docs/historical)
-^^^
-[![Alpha Helix at Tefe](img/historical-AlphaHelixTefe-500px.jpg)](docs/historical)
----
-[**CAMREX**](docs/historical)
-^^^
-[![Amanai](img/historical-Amanai-500px.jpg)](docs/historical)
----
-[**ABLE - LBA**](docs/historical)
-^^^
-[![Palmas](img/historical-Palmas-500px.jpg)](docs/historical)
----
-[**ROCA**](docs/historical)
-^^^
-[![Obidos](img/historical-obidos-500px.jpg)](docs/historical)
+:::{grid-item-card} Alpha Helix
+:class-card: sd-text-black
+:text-align: center
+:link-type: doc
+:link: docs/historical
+:img-bottom: img/historical-AlphaHelixTefe-500px.jpg
 :::
 
-<!-- [**ROCA**](docs/historical)
-^^^
-```{image} img/historical-obidos-500px.jpg
-:alt: Obidos
-:class: mb-1
-:align: center
-``` -->
+:::{grid-item-card} CAMREX
+:class-card: sd-text-black
+:text-align: center
+:link-type: doc
+:link: docs/historical
+:img-bottom: img/historical-Amanai-500px.jpg
+:::
+
+:::{grid-item-card} ABLE - LBA
+:class-card: sd-text-black
+:text-align: center
+:link-type: doc
+:link: docs/historical
+:img-bottom: img/historical-Palmas-500px.jpg
+:::
+
+:::{grid-item-card} ROCA
+:class-card: sd-text-black
+:text-align: center
+:link-type: doc
+:link: docs/historical
+:img-bottom: img/historical-obidos-500px.jpg
+:::
+
+::::
